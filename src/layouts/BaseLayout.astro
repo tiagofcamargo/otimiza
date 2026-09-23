@@ -73,5 +73,10 @@ const graph = {
     <main id="conteudo" tabindex="-1"><slot /></main>
     <Footer />
     {mobileContact && <MobileWhatsAppCTA message={contactMessage} />}
+    <script>
+      import { initMotion } from '../scripts/motion';
+
+      void initMotion();
+    </script>
   </body>
 </html>

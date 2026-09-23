@@ -1,6 +1,6 @@
 # Motion sutil e microinterações — Otimiza
 
-Status: desenho aprovado em conversa; aguarda revisão do documento antes do plano de implementação.
+Status: implementação aplicada e compilada; interações conferidas no preview local.
 
 ## Objetivo
 

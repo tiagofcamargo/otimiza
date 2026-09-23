@@ -9,7 +9,7 @@ const { eyebrow, lead, breadcrumbs, cta, message, secondary, variant = 'about' }
 <section class:list={['internal-hero', `internal-hero--${variant}`]} id="inicio" aria-labelledby="internal-title">
   <div class="container">
     <Breadcrumbs items={breadcrumbs} />
-    <div class="internal-hero-copy">
+    <div class="internal-hero-copy" data-motion-hero>
       <p class="eyebrow"><span class="internal-dot" aria-hidden="true"></span>{eyebrow}</p>
       <h1 id="internal-title"><slot /></h1>
       <div class="internal-hero-bottom">

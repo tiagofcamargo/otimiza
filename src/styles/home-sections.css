@@ -221,8 +221,12 @@
   .service-number { font-size: 3.5rem; }
 }
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
-  .services-grid > li, .decisions-grid > li { transition: transform 180ms ease; }
-  .services-grid > li:hover, .decisions-grid > li:hover { transform: translateY(-3px); }
+  .services-grid > li, .decisions-grid > li, .method-steps > li, .criteria-grid > div, .tax-analysis-grid > article, .regime-grid > article, .analysis-steps > li, .registration-grid > article, .internal-services-grid > article, .internal-card-grid > article, .needs-grid > a, .values-grid > li, .transition-process li { transition: transform 180ms ease, box-shadow 180ms ease; }
+  .services-grid > li:hover, .decisions-grid > li:hover, .method-steps > li:hover, .criteria-grid > div:hover, .tax-analysis-grid > article:hover, .regime-grid > article:hover, .analysis-steps > li:hover, .registration-grid > article:hover, .internal-services-grid > article:hover, .internal-card-grid > article:hover, .needs-grid > a:hover, .values-grid > li:hover, .transition-process li:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgb(35 35 38 / 9%); }
+  .faq-indicator::after { transition: transform 180ms ease; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .faq-indicator::after { transition: none; }
 }
 @media (max-width: 359px) {
   .values-grid { grid-template-columns: minmax(0, 1fr); }

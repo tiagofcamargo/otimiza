@@ -13,7 +13,6 @@
 .skip-link { position: fixed; top: var(--space-4); left: var(--space-4); z-index: var(--layer-skip); padding: var(--space-3) var(--space-5); color: var(--brand-dark); background: var(--brand-yellow); transform: translateY(-200%); }
 .skip-link:focus { transform: translateY(0); }
 .button { display: inline-flex; align-items: center; justify-content: space-between; gap: var(--space-6); min-height: var(--button-height); max-width: 100%; padding: .875rem var(--space-5); background: var(--brand-orange); color: var(--cta-text); border: 1px solid transparent; border-radius: var(--radius); text-decoration: none; font-size: var(--text-small); font-weight: 700; line-height: 1.5; }
-.button:hover > span:first-child { text-decoration: underline; text-underline-offset: 4px; }
 .button > span, .text-link > span { min-width: 0; }
 .accent-rule { display: inline-block; flex: 0 0 1.5rem; width: 1.5rem; height: 2px; background: var(--brand-orange); }
 .desktop-break { display: none; }
@@ -33,7 +32,18 @@
   .mobile-contact-bar { display: none; }
 }
 @media (prefers-reduced-motion: no-preference) {
-  .text-link, .button { transition: color 140ms ease, text-decoration-color 140ms ease; }
+  .text-link, .button { transition: color 180ms ease, background-color 180ms ease, filter 180ms ease, transform 180ms ease, box-shadow 180ms ease, text-decoration-color 180ms ease; }
+  .text-link svg { transition: transform 180ms ease; }
+  .text-link:hover svg { transform: translateX(3px); }
+  .button:active { transform: translateY(0) scale(.99); box-shadow: 0 2px 6px rgb(35 35 38 / 12%); }
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .button:hover { filter: brightness(.96); transform: translateY(-2px); box-shadow: 0 5px 15px rgb(35 35 38 / 14%); }
+  .button:hover:active { transform: translateY(0) scale(.99); box-shadow: 0 2px 6px rgb(35 35 38 / 12%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .button:active { filter: brightness(.9); }
+  .button:hover { filter: brightness(.96); }
 }
 @media print {
   .mobile-contact-bar, .skip-link { display: none !important; }
