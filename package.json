@@ -2,6 +2,7 @@
   "name": "otimiza-assessoria-contabil",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@11.22.0",
   "type": "module",
   "engines": {
     "node": "22.x"
