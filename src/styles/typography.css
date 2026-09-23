@@ -1,0 +1,12 @@
+@font-face { font-family: 'Manrope'; src: url('/fonts/manrope-400-700.woff2') format('woff2'); font-style: normal; font-weight: 400 700; font-display: swap; }
+body { font-family: var(--font-body); font-size: var(--text-body); font-weight: 400; line-height: 1.65; color: var(--text); background: var(--brand-light); overflow-wrap: anywhere; }
+h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; line-height: 1.1; }
+h1 { font-size: var(--text-h1); letter-spacing: -.012em; }
+h2 { font-size: var(--text-h2); letter-spacing: -.045em; text-wrap: balance; }
+h3 { font-size: var(--text-h3); letter-spacing: -.035em; line-height: 1.2; }
+p { text-wrap: pretty; }
+.eyebrow { display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-small); line-height: 1.5; font-weight: 500; }
+.section-number { color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.text-link { display: inline-flex; align-items: center; justify-content: space-between; gap: var(--space-4); min-height: var(--touch-target); font-size: var(--text-small); line-height: 1.5; font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.text-link:hover { color: var(--link); }
+::selection { background: var(--brand-yellow); color: var(--brand-dark); }

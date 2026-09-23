@@ -1,0 +1,11 @@
+---
+import WhatsAppLink from './WhatsAppLink.astro';
+interface Props { title: string; description: string; label: string; message?: string; }
+const { title, description, label, message } = Astro.props;
+---
+<section class="section dark-section internal-cta" id="converse" aria-labelledby="internal-cta-title">
+  <div class="container internal-cta-layout">
+    <div><p class="eyebrow">Vamos conversar</p><h2 id="internal-cta-title">{title}</h2></div>
+    <div class="internal-cta-action"><p>{description}</p><WhatsAppLink message={message}>{label}</WhatsAppLink></div>
+  </div>
+</section>

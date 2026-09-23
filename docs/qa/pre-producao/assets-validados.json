@@ -1,0 +1,44 @@
+[
+  {
+    "path": "public/brand/favicon-16.png",
+    "width": 16,
+    "height": 16,
+    "bytes": 598
+  },
+  {
+    "path": "public/brand/favicon-180.png",
+    "width": 180,
+    "height": 180,
+    "bytes": 17237
+  },
+  {
+    "path": "public/brand/favicon-192.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 18409
+  },
+  {
+    "path": "public/brand/favicon-32.png",
+    "width": 32,
+    "height": 32,
+    "bytes": 1805
+  },
+  {
+    "path": "public/brand/favicon-48.png",
+    "width": 48,
+    "height": 48,
+    "bytes": 3229
+  },
+  {
+    "path": "public/brand/favicon-512.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 55712
+  },
+  {
+    "path": "public/brand/og-otimiza.png",
+    "width": 1200,
+    "height": 630,
+    "bytes": 115060
+  }
+]

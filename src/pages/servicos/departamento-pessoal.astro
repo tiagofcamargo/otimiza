@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InternalHero from '../../components/InternalHero.astro';
+import FAQ from '../../components/FAQ.astro';
+import CTASection from '../../components/CTASection.astro';
+import RelatedServices from '../../components/RelatedServices.astro';
+import { services } from '../../data/services';
+import { personnelFAQ } from '../../data/remaining-service-faq';
+import '../../styles/internal-pages.css';
+const service = services.find(service => service.slug === 'departamento-pessoal')!;
+const breadcrumbs = [{ name: 'Início', href: '/' }, { name: 'Serviços', href: '/servicos' }, { name: service.title }];
+const cycle = [
+  ['Admissão', 'Dados da pessoa, condições de contratação e documentação para organizar o início do vínculo.'],
+  ['Folha', 'Informações do período, remuneração, jornada e eventos que precisam ser considerados nos cálculos.'],
+  ['Férias', 'Programação, comunicação e registros compatíveis com a situação de cada vínculo.'],
+  ['Afastamentos', 'Motivo, documentos e duração para avaliar o tratamento e os encaminhamentos aplicáveis.'],
+  ['13º salário', 'Informações sobre o período e ocorrências que possam influenciar a apuração.'],
+  ['Desligamento', 'Condições da saída, cálculos, documentos e obrigações para tratar o encerramento do vínculo.'],
+];
+// REVISÃO TÉCNICA OTIMIZA: descrições conceituais de eSocial, FGTS e INSS;
+// confirmar alcance e tratamento conforme vínculo, competência e enquadramento.
+const duties = [
+  ['eSocial', 'Informações de eventos', 'Dados sobre vínculos e ocorrências precisam ser coerentes entre os registros da empresa e as informações prestadas ao sistema.'],
+  ['FGTS', 'Base e recolhimento', 'As informações da folha e dos eventos do vínculo alimentam a análise dos valores e obrigações aplicáveis.'],
+  ['INSS', 'Tratamento previdenciário', 'A natureza da remuneração e a situação das pessoas envolvidas importam para verificar as contribuições e os registros pertinentes.'],
+  ['Demais obrigações', 'Regras de cada relação', 'Encargos e obrigações trabalhistas dependem do vínculo, da atividade e das condições aplicáveis. A análise não se resume ao cálculo da folha.'],
+];
+---
+<BaseLayout title="Departamento pessoal e folha de pagamento | Otimiza" description="Organize admissões, folha, férias, afastamentos e desligamentos com informações consistentes e atenção às obrigações trabalhistas e previdenciárias." breadcrumbs={breadcrumbs} pageKind="Service" mobileContact contactMessage={service.message}>
+  <InternalHero eyebrow={service.title} lead="Admissões, folha, férias, afastamentos e desligamentos exigem informações corretas e procedimentos realizados no momento adequado." breadcrumbs={breadcrumbs} cta="Conversar sobre departamento pessoal" message={service.message} secondary={{ label: 'Entender a rotina', href: '#ciclo-do-vinculo' }}>
+    Pessoas, prazos e obrigações <span>precisam caminhar juntos.</span>
+  </InternalHero>
+
+  <section class="section internal-white" id="ciclo-do-vinculo" aria-labelledby="cycle-title" tabindex="-1">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">O ciclo do vínculo</p><h2 id="cycle-title">Cada momento pede uma informação diferente.</h2></div><p class="section-description">O departamento pessoal acompanha eventos que se conectam. Um dado na admissão pode repercutir na folha, nas férias ou no desligamento.</p></div>
+      <ol class="personnel-cycle">{cycle.map(([title, text], index) => <li><p class="cycle-index" aria-hidden="true">0{index + 1}</p><div><h3>{title}</h3><p>{text}</p></div></li>)}</ol>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="informacoes" aria-labelledby="information-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Informação e prazo</p><h2 id="information-title">Uma rotina organizada depende de comunicação.</h2><p class="internal-lead personnel-lead">O cálculo é uma parte do trabalho. Saber o que aconteceu e quando aconteceu é o que permite começar.</p></div>
+      <div class="internal-prose"><p>A empresa conhece as mudanças do dia a dia: uma contratação prevista, uma alteração de jornada, a programação de férias ou um afastamento. Compartilhar essas informações com antecedência ajuda a avaliar os procedimentos e as obrigações envolvidos.</p><p>Documentos completos, datas corretas e alinhamento sobre o envio de dados reduzem retrabalho. Quando existe uma divergência, a conferência precisa identificar a origem antes de alterar os registros.</p><p>Se o negócio ainda está sendo estruturado, a <a href="/servicos/abertura-de-empresa">abertura de empresa</a> também é o momento de compreender como futuras contratações se integrarão à operação.</p></div>
+    </div>
+  </section>
+
+  <section class="section dark-section" id="encargos" aria-labelledby="duties-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Encargos e obrigações</p><h2 id="duties-title">Os registros precisam <span class="internal-yellow">conversar entre si.</span></h2></div><p class="section-description">Folha, eventos e obrigações devem representar a mesma realidade. O tratamento depende das regras aplicáveis a cada situação.</p></div>
+      <div class="tax-analysis-grid">{duties.map(([title, label, text]) => <article><p class="analysis-label">{label}</p><h3>{title}</h3><p>{text}</p></article>)}</div>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="socios" aria-labelledby="partners-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Sócios e remuneração</p><h2 id="partners-title">Pró-labore também exige uma leitura própria.</h2></div>
+      <div class="internal-prose"><p>A remuneração pelo trabalho do sócio e a distribuição de resultados são assuntos distintos. A atuação na empresa, a forma de pagamento e as regras aplicáveis precisam ser consideradas para definir o tratamento adequado.</p><p>Esse tema se conecta à <a href="/servicos/contabilidade-empresarial">contabilidade empresarial</a>, que organiza as informações sobre resultado e patrimônio. Uma retirada não deve ser interpretada apenas pelo nome usado no pagamento.</p><p>Informações consistentes ajudam a conferir o que foi calculado e registrado. Esse cuidado reduz a possibilidade de retrabalho, sem substituir a análise das particularidades ou eliminar todos os riscos.</p></div>
+    </div>
+  </section>
+  <FAQ title="Dúvidas sobre a rotina de pessoal." description="Entenda quais informações entram no trabalho e onde as condições do vínculo precisam ser verificadas." items={personnelFAQ} />
+  <RelatedServices slugs={['contabilidade-empresarial', 'abertura-de-empresa']} />
+  <CTASection title="Organizar a rotina começa por informações bem alinhadas." description="Converse com a Otimiza sobre os vínculos, as ocorrências e as necessidades de departamento pessoal da sua empresa." label="Conversar sobre departamento pessoal" message={service.message} />
+</BaseLayout>
+<style>
+  .personnel-cycle { display: grid; gap: var(--space-5); list-style: none; }
+  .personnel-cycle li { display: flex; align-items: flex-start; gap: var(--space-5); padding: var(--space-6); background: var(--surface-warm); border-radius: var(--card-radius); }
+  .personnel-cycle li:nth-child(2) { background: var(--surface-peach); }
+  .personnel-cycle li > div { min-width: 0; }
+  .cycle-index { flex: 0 0 auto; color: var(--link); font-size: var(--text-small); padding-top: var(--space-2); }
+  .personnel-cycle h3 { font-size: 1.5rem; }
+  .personnel-cycle li div > p { margin-top: var(--space-4); color: var(--text-muted); }
+  .personnel-lead { margin-top: var(--space-6); }
+  @media (min-width: 768px) { .personnel-cycle { grid-template-columns: repeat(2, minmax(0, 1fr)); } .personnel-cycle li { padding: var(--space-8); } }
+  @media (min-width: 1200px) { .personnel-cycle { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+</style>

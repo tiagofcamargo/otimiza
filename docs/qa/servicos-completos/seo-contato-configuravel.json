@@ -1,0 +1,55 @@
+{
+  "method": "Build isolado, origem reservada e número apenas de fixture. Nada alterado na configuração ou no dist de revisão.",
+  "pages": [
+    {
+      "slug": "contabilidade-empresarial",
+      "canonical": true,
+      "og": true,
+      "schema": true,
+      "indexing": true,
+      "contextual_ctas": 3,
+      "all_wa_numbers": true,
+      "review_build_untouched": true
+    },
+    {
+      "slug": "fiscal-e-tributario",
+      "canonical": true,
+      "og": true,
+      "schema": true,
+      "indexing": true,
+      "contextual_ctas": 3,
+      "all_wa_numbers": true,
+      "review_build_untouched": true
+    },
+    {
+      "slug": "departamento-pessoal",
+      "canonical": true,
+      "og": true,
+      "schema": true,
+      "indexing": true,
+      "contextual_ctas": 3,
+      "all_wa_numbers": true,
+      "review_build_untouched": true
+    },
+    {
+      "slug": "abertura-de-empresa",
+      "canonical": true,
+      "og": true,
+      "schema": true,
+      "indexing": true,
+      "contextual_ctas": 3,
+      "all_wa_numbers": true,
+      "review_build_untouched": true
+    },
+    {
+      "slug": "troca-de-contador",
+      "canonical": true,
+      "og": true,
+      "schema": true,
+      "indexing": true,
+      "contextual_ctas": 3,
+      "all_wa_numbers": true,
+      "review_build_untouched": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sha256_unchanged": {
+    "src/styles/tokens.css": true,
+    "src/styles/reset.css": true,
+    "src/styles/typography.css": true,
+    "src/styles/global.css": true,
+    "src/styles/home-intro.css": true,
+    "src/styles/home-sections.css": true,
+    "src/styles/internal-pages.css": true,
+    "src/components/Header.astro": true,
+    "src/components/Footer.astro": true,
+    "src/pages/sobre.astro": true,
+    "src/pages/servicos/planejamento-tributario.astro": true
+  },
+  "screenshots": {
+    "sobre-390x844.png": {
+      "same_dimensions": true,
+      "identical_pixels": true
+    },
+    "sobre-1440x900.png": {
+      "same_dimensions": true,
+      "identical_pixels": true
+    },
+    "planejamento-tributario-390x844.png": {
+      "same_dimensions": true,
+      "identical_pixels": true
+    },
+    "planejamento-tributario-1440x900.png": {
+      "same_dimensions": true,
+      "identical_pixels": true
+    }
+  },
+  "home_hero_pixels": {
+    "390x844": true,
+    "1440x900": true
+  }
+}

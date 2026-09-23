@@ -1,0 +1,24 @@
+---
+import Breadcrumbs from './Breadcrumbs.astro';
+import WhatsAppLink from './WhatsAppLink.astro';
+import Arrow from './Arrow.astro';
+import type { BreadcrumbItem } from '../utils/seo';
+interface Props { eyebrow: string; lead: string; breadcrumbs: BreadcrumbItem[]; cta: string; message?: string; secondary?: { label: string; href: string }; variant?: 'about' | 'hub' | 'tax'; }
+const { eyebrow, lead, breadcrumbs, cta, message, secondary, variant = 'about' } = Astro.props;
+---
+<section class:list={['internal-hero', `internal-hero--${variant}`]} id="inicio" aria-labelledby="internal-title">
+  <div class="container">
+    <Breadcrumbs items={breadcrumbs} />
+    <div class="internal-hero-copy">
+      <p class="eyebrow"><span class="internal-dot" aria-hidden="true"></span>{eyebrow}</p>
+      <h1 id="internal-title"><slot /></h1>
+      <div class="internal-hero-bottom">
+        <p class="internal-lead">{lead}</p>
+        <div class="internal-actions">
+          <WhatsAppLink id="hero-contact" hero message={message}>{cta}</WhatsAppLink>
+          {secondary && <a class="text-link" href={secondary.href}>{secondary.label}<Arrow /></a>}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

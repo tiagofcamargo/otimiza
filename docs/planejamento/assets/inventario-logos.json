@@ -1,0 +1,182 @@
+[
+  {
+    "file": "LOGO FINAL_-09.png",
+    "width": 8119,
+    "height": 4619,
+    "bytes": 355521,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "art_bbox": [
+      1225,
+      1864,
+      7302,
+      2945
+    ],
+    "sha256": "a518f25332c8e8807c942f760078967bb8ef45b88fdf9812c53210daccc3758a",
+    "visual_type": "Horizontal branca",
+    "proposed_use": "Footer / fundo escuro"
+  },
+  {
+    "file": "LOGO FINAL__icone positivo.png",
+    "width": 8120,
+    "height": 4619,
+    "bytes": 373902,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "art_bbox": [
+      2777,
+      1257,
+      5312,
+      3573
+    ],
+    "sha256": "43f9487e9e3e46ec1430ab666103d109d0120d584fbf791aa5ebc6df2c255cf5",
+    "visual_type": "Símbolo colorido",
+    "proposed_use": "Elemento institucional"
+  },
+  {
+    "file": "LOGO FINAL__logo branca variação.png",
+    "width": 8119,
+    "height": 4619,
+    "bytes": 360729,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "art_bbox": [
+      1224,
+      1864,
+      7301,
+      2945
+    ],
+    "sha256": "1feafd382147ffdf079da2defcc41be51a9a5db9b29974c1914af34a485992b5",
+    "visual_type": "Horizontal preta",
+    "proposed_use": "Header / fundo claro"
+  },
+  {
+    "file": "LOGO FINAL__logo branca.png",
+    "width": 8119,
+    "height": 4620,
+    "bytes": 354221,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "art_bbox": [
+      1798,
+      1329,
+      6527,
+      3301
+    ],
+    "sha256": "dea03f8fd1cbbf260ce0d35e473809fa952d1f2d8634dd26996879510808d5dd",
+    "visual_type": "Vertical branca",
+    "proposed_use": "Assinatura institucional"
+  },
+  {
+    "file": "LOGO FINAL__logo positiva .png",
+    "width": 8120,
+    "height": 4620,
+    "bytes": 358727,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "art_bbox": [
+      1799,
+      1329,
+      6527,
+      3301
+    ],
+    "sha256": "4e1dfa066b6c54543fb1a571fc43268d533a16e4eb21dd7d44cec1212ca612c5",
+    "visual_type": "Vertical colorida",
+    "proposed_use": "Apresentação da marca"
+  },
+  {
+    "file": "LOGO FINAL__logo positiva variação.png",
+    "width": 8120,
+    "height": 4619,
+    "bytes": 360759,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "art_bbox": [
+      1225,
+      1864,
+      7302,
+      2945
+    ],
+    "sha256": "8b5b5f1bacf0708777239354d902f6bcf22e604ec1fcb05f78beaf2b2401ad1d",
+    "visual_type": "Horizontal colorida",
+    "proposed_use": "Alternativa de header"
+  },
+  {
+    "file": "LOGO FINAL__logo preta.png",
+    "width": 8119,
+    "height": 4620,
+    "bytes": 360039,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "art_bbox": [
+      1798,
+      1329,
+      6527,
+      3301
+    ],
+    "sha256": "533f9bf4cb54a8fee9bfa33a94949deed6ce2c8873886f46c8799f8d447317c7",
+    "visual_type": "Vertical preta",
+    "proposed_use": "Uso monocromático"
+  },
+  {
+    "file": "LOGO FINAL__ícone branco.png",
+    "width": 8119,
+    "height": 4619,
+    "bytes": 374779,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "art_bbox": [
+      2884,
+      1246,
+      5418,
+      3562
+    ],
+    "sha256": "5008583d254d953a5a60a328f5828966002d2f151aff24fec611a764ceefde31",
+    "visual_type": "Símbolo branco",
+    "proposed_use": "Seções escuras"
+  },
+  {
+    "file": "LOGO FINAL__ícone preto.png",
+    "width": 8119,
+    "height": 4619,
+    "bytes": 397208,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "art_bbox": [
+      2864,
+      1246,
+      5399,
+      3562
+    ],
+    "sha256": "2b46fedee755f7ea623deb832db6e6929c40279b7b6378deefd81075c78a3620",
+    "visual_type": "Símbolo preto",
+    "proposed_use": "Favicon / uso discreto"
+  }
+]

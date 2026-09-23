@@ -1,0 +1,10 @@
+Use case: stylized-concept
+Asset type: one premium editorial conceptual illustration for the Otimiza accounting consultancy homepage.
+Primary request: organizing information to make a considered decision, expressed through layered blank document sheets and three interlocking architectural planes or pathways, with one discreet ascending folded-paper line. This must read as conceptual magazine art.
+Scene/backdrop: completely uniform off-white #fafafa background, uninterrupted and without a border, merging seamlessly with an off-white website.
+Style/medium: premium 2D editorial business illustration; sculptural flat geometric paper compositions, very subtle printed texture, technical precision, sophisticated and uncluttered. Visual depth comes only from overlapping flat shapes, not realistic lighting.
+Composition/framing: a compact square composition, the central artwork surrounded by modest breathing room. Clear and beautiful when shown at 350–400px wide in an asymmetrical bottom-right homepage hero; keep all important artwork centrally grouped for smaller horizontal framing on mobile.
+Color palette: ONLY charcoal #232326, orange-red #ef4234, tiny warm yellow #ffb941 accents, and off-white #fafafa. Dominant charcoal and off-white shapes with a strong but restrained orange-red plane and very small yellow accents.
+Materials/textures: geometric printed-paper texture, crisp editorial contours, flat restrained color.
+Text: none.
+Constraints: create exactly one asset. No typography, letters, logo, numbers, money, coins, calculator, dashboard, glass, neon, 3D render, photorealism, stock people, fictitious office, data graph, gradients, or watermark. Avoid busy detail.

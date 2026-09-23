@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import InternalHero from '../components/InternalHero.astro';
+import FAQ from '../components/FAQ.astro';
+import CTASection from '../components/CTASection.astro';
+import { generalFAQ } from '../data/general-faq';
+import { generalMessage } from '../utils/whatsapp';
+import '../styles/internal-pages.css';
+
+const breadcrumbs = [{ name: 'Início', href: '/' }, { name: 'Perguntas frequentes' }];
+---
+<BaseLayout title="Perguntas frequentes sobre serviços contábeis | Otimiza" description="Esclareça dúvidas sobre contabilidade, tributos, departamento pessoal, abertura de empresa, troca de contador e atendimento da Otimiza." breadcrumbs={breadcrumbs} pageKind="WebPage" mobileContact contactMessage={generalMessage}>
+  <InternalHero eyebrow="Perguntas frequentes" lead="Reunimos dúvidas sobre atendimento, contabilidade, tributos, departamento pessoal, abertura de empresa e troca de contador. Escolha um assunto para começar." breadcrumbs={breadcrumbs} cta="Falar com um especialista" message={generalMessage} secondary={{ label: 'Encontrar um assunto', href: '#indice-faq' }}>
+    Informação clara <span>antes da primeira conversa.</span>
+  </InternalHero>
+
+  <section class="section internal-warm" id="indice-faq" aria-labelledby="faq-index-title" tabindex="-1">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Encontre sua dúvida</p><h2 id="faq-index-title">Por onde você quer começar?</h2></div><p class="section-description">As respostas apresentam os conceitos essenciais. Os links de cada assunto levam aos serviços para aprofundar a leitura.</p></div>
+      <nav class="faq-index" aria-label="Navegação por assunto">
+        <ul>{generalFAQ.map((category, index) => <li><a href={`#${category.id}`}><span class="faq-index-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span><span>{category.title}</span><span aria-hidden="true">↓</span></a></li>)}</ul>
+      </nav>
+    </div>
+  </section>
+
+  {generalFAQ.map((category) => <FAQ id={category.id} eyebrow="Perguntas por assunto" title={category.title} description={category.description} items={category.items} />)}
+
+  <CTASection title="Sua dúvida precisa de uma conversa mais detalhada?" description="Conte à Otimiza o que você precisa compreender e quais informações já tem sobre a situação." label="Falar com um especialista" message={generalMessage} />
+</BaseLayout>
+
+<style>
+  .faq-index ul { display: grid; gap: var(--space-4); list-style: none; }
+  .faq-index li { min-width: 0; }
+  .faq-index a { display: flex; align-items: center; gap: var(--space-4); min-height: var(--touch-target); height: 100%; padding: var(--space-6); border-radius: var(--card-radius); background: var(--surface); text-decoration: none; font-weight: 500; }
+  .faq-index a:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .faq-index-number { color: var(--text-muted); font-size: var(--text-small); font-variant-numeric: tabular-nums; }
+  .faq-index a > span:last-child { margin-left: auto; }
+  @media (min-width: 768px) { .faq-index ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 1200px) { .faq-index ul { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+</style>

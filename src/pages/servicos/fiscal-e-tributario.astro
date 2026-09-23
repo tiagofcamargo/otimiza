@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InternalHero from '../../components/InternalHero.astro';
+import FAQ from '../../components/FAQ.astro';
+import RelatedServices from '../../components/RelatedServices.astro';
+import CTASection from '../../components/CTASection.astro';
+import { services } from '../../data/services';
+import '../../styles/internal-pages.css';
+
+const message = services.find((service) => service.slug === 'fiscal-e-tributario')!.message;
+const breadcrumbs = [{ name: 'Início', href: '/' }, { name: 'Serviços', href: '/servicos' }, { name: 'Fiscal e tributário' }];
+// REVISÃO TÉCNICA OTIMIZA: verificar a apresentação de ICMS, ISS, PIS/Cofins, IRPJ e CSLL por operação, localidade, regime e período; considerar mudanças legislativas e transições em vigor.
+// REVISÃO TÉCNICA OTIMIZA: validar retenções, obrigações acessórias e correções por competência e enquadramento, sem lista universal de tributos, declarações ou procedimentos.
+const faq = [
+  { question: 'Qual a diferença entre contabilidade e fiscal?', answer: 'A contabilidade organiza os fatos econômicos e patrimoniais e apresenta o resultado e o patrimônio. A área fiscal trata dos documentos, da apuração de tributos e das obrigações relacionadas. As informações se conectam, mas as finalidades são distintas.' },
+  { question: 'Toda empresa paga os mesmos impostos?', answer: 'Não. Atividade, operação, localidade, regime e período influenciam quais tributos precisam ser analisados e como são tratados. A comparação exige olhar além do nome da atividade ou do valor faturado.' },
+  { question: 'O que são obrigações acessórias?', answer: 'São deveres de informação e registro relacionados à fiscalização e ao controle tributário, como documentos e declarações quando exigidos. Seu cumprimento é uma frente própria da rotina, além do pagamento dos tributos.' },
+  { question: 'O que acontece se uma obrigação for enviada com erro?', answer: 'É preciso identificar o erro, o período e as informações afetadas. A possibilidade de correção, o procedimento e eventuais efeitos dependem da obrigação e das regras aplicáveis; corrigir um dado pode exigir conferir outros registros relacionados.' },
+  { question: 'Simples Nacional elimina todas as obrigações fiscais?', answer: 'O enquadramento não dispensa a verificação das obrigações da empresa. Documentos, informações, declarações e situações específicas da operação precisam ser analisados conforme a atividade, a localidade e as regras aplicáveis.' },
+  { question: 'Quando devo revisar o enquadramento tributário?', answer: 'Mudanças de atividade, receita, margem, estrutura ou forma de operar são motivos para retomar a análise. Também é necessário acompanhar alterações nas regras. As possibilidades e os momentos de mudança devem ser verificados para cada situação.' },
+];
+const alignment = [
+  ['Operação e documento', 'Notas de entradas e saídas precisam refletir o que foi comprado, vendido ou prestado. Cancelamentos, devoluções e outras ocorrências também fazem parte dessa conferência.'],
+  ['Documento e escrituração', 'Natureza da operação, dados das partes e eventuais retenções precisam ser tratados de forma coerente nos registros. A emissão de uma nota, sozinha, não encerra essa análise.'],
+  ['Escrituração e apuração', 'Os registros alimentam a apuração conforme o regime e as regras aplicáveis. Diferenças precisam ser compreendidas antes de se concluir pelo valor a recolher.'],
+  ['Apuração e informação', 'As obrigações acessórias comunicam dados da operação e dos tributos. O que é declarado precisa ser compatível com os documentos e registros que sustentam a apuração.'],
+];
+---
+<BaseLayout title="Fiscal e tributário: documentos e apuração | Otimiza" description="Conheça a relação entre operações, notas fiscais, tributos e obrigações acessórias. Converse com a Otimiza sobre apurações e pendências fiscais." breadcrumbs={breadcrumbs} pageKind="Service" mobileContact contactMessage={message}>
+  <InternalHero eyebrow="Fiscal e tributário" lead="Documentos, atividade, regime tributário e forma de operação precisam estar coerentes para que apurações e obrigações reflitam corretamente a realidade da empresa." breadcrumbs={breadcrumbs} cta="Conversar sobre a área fiscal" message={message} secondary={{ label: 'Entender a rotina fiscal', href: '#origem-da-apuracao' }}>
+    Cada operação pode produzir <span>uma consequência fiscal diferente.</span>
+  </InternalHero>
+
+  <section class="section internal-white" id="origem-da-apuracao" aria-labelledby="origin-title" tabindex="-1">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Antes da guia</p><h2 id="origin-title">A rotina fiscal começa antes da apuração.</h2></div>
+      <div class="internal-prose"><p>A compra de uma mercadoria, a prestação de um serviço e uma devolução descrevem fatos distintos. Para tratar seus efeitos fiscais, é necessário entender a operação e os documentos que a representam.</p><p>A análise começa na origem: o que foi realizado, por quem, onde e em qual período. Informações incompletas ou classificações inconsistentes podem se repetir na escrituração, nos cálculos e nas declarações.</p><p>Por isso, emitir uma guia é apenas uma parte da rotina. O trabalho fiscal relaciona fatos, registros e regras para avaliar se as informações utilizadas na apuração fazem sentido.</p></div>
+    </div>
+  </section>
+
+  <section class="section dark-section" id="alinhamento-fiscal" aria-labelledby="alignment-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">O que precisa estar alinhado</p><h2 id="alignment-title">Uma informação percorre <span class="internal-yellow">várias etapas.</span></h2></div><p class="section-description">Notas, escrituração, retenções, apuração e obrigações acessórias se relacionam. Conferir essas conexões ajuda a localizar divergências e compreender sua origem.</p></div>
+      <div class="tax-analysis-grid">{alignment.map(([title, text], index) => <article><p class="analysis-label"><span aria-hidden="true">0{index + 1}</span>Coerência entre etapas</p><h3>{title}</h3><p>{text}</p></article>)}</div>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="tributos-e-operacao" aria-labelledby="taxes-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Tributos dependem da operação</p><h2 id="taxes-title">A sigla não explica<br />toda a incidência.</h2></div><p class="section-description">ICMS, ISS, PIS/Cofins, IRPJ e CSLL envolvem fatos e sistemáticas diferentes. Sua aplicação precisa ser verificada conforme a operação, o regime, a localidade e o período.</p></div>
+      <div class="review-signals">
+        <article><h3>ICMS</h3><p>Relaciona-se à circulação de mercadorias e a determinadas prestações de serviços. A análise considera a natureza e o destino das operações e as regras estaduais aplicáveis.</p></article>
+        <article><h3>ISS</h3><p>Relaciona-se à prestação de serviços abrangidos pelas regras desse imposto. O serviço realizado, o município envolvido e eventuais responsabilidades por retenção precisam ser examinados.</p></article>
+        <article><h3>PIS e Cofins</h3><p>São contribuições com tratamentos que variam conforme as regras aplicáveis à receita e à operação. Regime, hipóteses específicas e eventuais créditos exigem análise própria.</p></article>
+        <article><h3>IRPJ e CSLL</h3><p>Relacionam-se à tributação da renda e do resultado da pessoa jurídica, com formas de apuração que dependem do enquadramento. A leitura exige considerar a sistemática aplicável à empresa.</p></article>
+      </div>
+      <p class="internal-caption">Esta apresentação é conceitual e não reúne todos os tributos possíveis. Não significa que todos sejam devidos por toda empresa; mudanças legislativas e regras de transição também precisam ser consideradas.</p>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="regime-e-obrigacoes" aria-labelledby="regime-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Regime e obrigações acessórias</p><h2 id="regime-title">A forma de apurar também organiza a rotina.</h2></div>
+      <div class="internal-prose"><p>O regime tributário influencia os critérios de apuração e as informações necessárias para sustentá-la. Uma mudança na atividade ou na operação pode trazer novas questões, mesmo quando o enquadramento permanece igual.</p><p>O <a href="/servicos/planejamento-tributario">planejamento tributário</a> permite comparar cenários e suas consequências. A rotina fiscal precisa traduzir o cenário aplicável em documentos, registros e apurações coerentes.</p><p>Além dos recolhimentos, existem deveres de informação. Declarações e outros registros podem variar conforme atividade, localidade, regime e período; não há uma lista única que descreva a rotina de todas as empresas.</p><p>As informações também precisam conversar com a <a href="/servicos/contabilidade-empresarial">contabilidade empresarial</a>. Uma divergência entre documentos fiscais, receitas e saldos contábeis merece investigação, pois pode afetar mais de uma frente.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="pendencias-fiscais" aria-labelledby="pending-title">
+    <div class="container internal-split analysis-layout">
+      <div><p class="eyebrow">Pendências fiscais</p><h2 id="pending-title">Antes de regularizar,<br />é preciso diagnosticar.</h2><p class="internal-lead">Uma pendência pode envolver informação ausente, divergência, recolhimento ou outra situação. O primeiro passo é identificar o que está sendo apontado e sua relação com os registros da empresa.</p></div>
+      <ol class="analysis-steps">
+        <li><span aria-hidden="true">01</span><div><h3>Identificar a origem</h3><p>Localizar o órgão, o período e a obrigação ou o registro relacionado ao apontamento. Uma descrição resumida pode não explicar toda a situação.</p></div></li>
+        <li><span aria-hidden="true">02</span><div><h3>Confrontar as informações</h3><p>Reunir documentos, declarações, comprovantes e registros para entender se existe uma divergência e quais informações são afetadas.</p></div></li>
+        <li><span aria-hidden="true">03</span><div><h3>Avaliar o encaminhamento</h3><p>Verificar as alternativas e exigências aplicáveis antes de corrigir informações ou realizar recolhimentos. O diagnóstico não pressupõe solução automática nem um procedimento único.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <FAQ title="Dúvidas que fazem parte da rotina fiscal." description="Respostas para compreender documentos, enquadramento e obrigações antes de avaliar a situação específica da empresa." items={faq} />
+  <RelatedServices slugs={['planejamento-tributario', 'contabilidade-empresarial']} />
+  <CTASection title="Há uma operação ou pendência fiscal que precisa de análise?" description="Converse com a Otimiza sobre os documentos, o período e a situação que você precisa compreender antes de definir o próximo passo." label="Conversar sobre a área fiscal" message={message} />
+</BaseLayout>

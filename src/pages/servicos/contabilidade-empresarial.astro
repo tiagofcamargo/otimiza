@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InternalHero from '../../components/InternalHero.astro';
+import FAQ from '../../components/FAQ.astro';
+import RelatedServices from '../../components/RelatedServices.astro';
+import CTASection from '../../components/CTASection.astro';
+import { services } from '../../data/services';
+import '../../styles/internal-pages.css';
+
+const message = services.find((service) => service.slug === 'contabilidade-empresarial')!.message;
+const breadcrumbs = [{ name: 'Início', href: '/' }, { name: 'Serviços', href: '/servicos' }, { name: 'Contabilidade empresarial' }];
+// REVISÃO TÉCNICA OTIMIZA: confirmar obrigações de escrituração e demonstrações conforme natureza, porte e enquadramento; não pressupor um conjunto universal.
+// REVISÃO TÉCNICA OTIMIZA: validar tratamento de pró-labore e distribuição conforme situação societária, registros e regras vigentes, sem inferir disponibilidade ou isenção.
+const faq = [
+  { question: 'Toda empresa precisa de contabilidade?', answer: 'As exigências de escrituração e demonstrações precisam ser verificadas conforme a natureza, o porte e o enquadramento da empresa. Um regime tributário simplificado, por si só, não permite concluir quais obrigações contábeis se aplicam.' },
+  { question: 'O que é DRE?', answer: 'A Demonstração do Resultado do Exercício organiza receitas, custos e despesas para apresentar o resultado de um período. Ela ajuda a entender a formação do lucro ou prejuízo; não é um extrato de entradas e saídas de dinheiro.' },
+  { question: 'Qual a diferença entre lucro e caixa?', answer: 'Lucro é um resultado apurado a partir de receitas, custos e despesas. Caixa se refere aos recursos financeiros disponíveis e à sua movimentação. Os momentos de reconhecimento e de recebimento ou pagamento podem ser diferentes.' },
+  { question: 'O que é balanço patrimonial?', answer: 'É uma demonstração da posição patrimonial em determinada data. Apresenta ativos, passivos e patrimônio líquido, ajudando a compreender o que a empresa possui, seus direitos, suas obrigações e a composição do patrimônio.' },
+  { question: 'Pró-labore e distribuição de lucros são a mesma coisa?', answer: 'São conceitos diferentes. Pró-labore se relaciona à remuneração pelo trabalho de sócios; distribuição se relaciona aos lucros. O tratamento de cada um depende da situação da empresa, da documentação e das regras aplicáveis.' },
+  { question: 'Com que frequência a contabilidade deve receber documentos?', answer: 'O envio precisa acompanhar as operações e o calendário de fechamento e obrigações aplicável. A frequência e os documentos necessários devem ser alinhados com o profissional responsável, inclusive para operações fora da rotina.' },
+];
+const routine = [
+  ['Registrar os fatos', 'A escrituração organiza as operações a partir de documentos e informações que expliquem sua natureza. Vendas, compras, contratos e movimentações precisam encontrar correspondência nos registros.'],
+  ['Conferir os saldos', 'Conciliações confrontam registros com extratos e controles de clientes, fornecedores e outros saldos. O controle patrimonial também ajuda a acompanhar bens e as movimentações que os afetam.'],
+  ['Fechar e demonstrar', 'Balancetes apoiam a conferência das contas. Encerramentos e demonstrações, como balanço patrimonial e DRE, apresentam a posição e o resultado conforme o conjunto aplicável à empresa.'],
+];
+---
+<BaseLayout title="Contabilidade empresarial: patrimônio e resultado | Otimiza" description="Entenda escrituração, conciliações, balanço e DRE. A Otimiza orienta a leitura do patrimônio, do resultado e das informações contábeis da empresa." breadcrumbs={breadcrumbs} pageKind="Service" mobileContact contactMessage={message}>
+  <InternalHero eyebrow="Contabilidade empresarial" lead="A contabilidade organiza informações econômicas e patrimoniais para cumprir obrigações, acompanhar resultados e apoiar decisões com mais segurança." breadcrumbs={breadcrumbs} cta="Conversar sobre contabilidade empresarial" message={message} secondary={{ label: 'Entender o papel da contabilidade', href: '#informacao-contabil' }}>
+    Os números precisam representar <span>o que realmente acontece na empresa.</span>
+  </InternalHero>
+
+  <section class="section internal-white" id="informacao-contabil" aria-labelledby="information-title" tabindex="-1">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Muito além da escrituração</p><h2 id="information-title">Registrar é o começo.<br />Compreender é o que dá sentido.</h2></div>
+      <div class="internal-prose"><p>Uma venda ainda não recebida, a compra de um equipamento e uma dívida assumida afetam a empresa de maneiras distintas. A contabilidade organiza esses fatos para que não sejam lidos apenas como movimentações bancárias.</p><p>A qualidade dessa informação depende de documentos completos, classificação coerente e conferência dos saldos. Registros sem conexão com a operação dificultam entender o patrimônio e a formação do resultado.</p><p>Esse trabalho se conecta à <a href="/servicos/fiscal-e-tributario">rotina fiscal e tributária</a>, que trata dos documentos, das apurações e das obrigações relacionadas aos tributos. As duas frentes precisam compartilhar informações consistentes.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-peach" id="lucro-e-caixa" aria-labelledby="cash-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Duas leituras necessárias</p><h2 id="cash-title">Resultado contábil<br />não é o mesmo que caixa.</h2></div><p class="section-description">Uma empresa pode apresentar lucro e ainda precisar acompanhar de perto seus recebimentos e pagamentos. Cada leitura responde a uma pergunta diferente.</p></div>
+      <div class="conceptual-example">
+        <article><p class="comparison-label">Resultado</p><h3>A operação gerou lucro ou prejuízo?</h3><p>Receitas, custos e despesas compõem o resultado do período conforme os critérios de reconhecimento aplicáveis. A DRE permite analisar como esse resultado foi formado.</p></article>
+        <article><p class="comparison-label">Caixa</p><h3>Quando o dinheiro entra e sai?</h3><p>Recebimentos e pagamentos mostram a movimentação dos recursos financeiros. Uma entrada pode vir de uma venda, mas também de um empréstimo ou de um aporte dos sócios.</p></article>
+      </div>
+      <p class="example-conclusion">Uma venda a prazo pode compor o resultado antes de o dinheiro ser recebido.</p>
+      <p class="internal-caption">Exemplo conceitual: o reconhecimento depende das condições da operação. A leitura contábil complementa o acompanhamento financeiro e não substitui o controle de caixa.</p>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="rotina-contabil" aria-labelledby="routine-title">
+    <div class="container internal-split analysis-layout">
+      <div><p class="eyebrow">O que faz parte da rotina</p><h2 id="routine-title">Dos documentos às demonstrações.</h2><p class="internal-lead">A rotina relaciona registros, conferências e encerramentos. O conjunto de procedimentos e demonstrações depende das características e das exigências aplicáveis à empresa.</p></div>
+      <ol class="analysis-steps">{routine.map(([title, text], index) => <li><span aria-hidden="true">0{index + 1}</span><div><h3>{title}</h3><p>{text}</p></div></li>)}</ol>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="socios-e-resultados" aria-labelledby="partners-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Sócios e empresa</p><h2 id="partners-title">Trabalho e participação nos lucros são assuntos diferentes.</h2></div><p class="section-description">Antes de tratar uma retirada, é preciso compreender sua natureza. O saldo bancário, isoladamente, não informa se existe lucro disponível para distribuição.</p></div>
+      <div class="legal-comparison">
+        <article class="internal-panel"><p class="comparison-label">Pró-labore</p><h3>A remuneração pelo trabalho.</h3><p>Relaciona-se ao trabalho exercido por sócios na empresa. Sua análise considera a atuação de cada pessoa e o tratamento contábil, previdenciário e tributário aplicável.</p></article>
+        <article class="internal-panel"><p class="comparison-label">Distribuição de lucros</p><h3>A destinação de resultados.</h3><p>Relaciona-se aos lucros e à participação societária. Registros, demonstrações, condições da empresa e regras aplicáveis precisam sustentar a análise de uma distribuição.</p></article>
+      </div>
+      <p class="internal-caption">A classificação de valores pagos aos sócios exige análise específica. Esses conceitos não definem valores, frequência de retirada ou tratamento tributário para um caso concreto.</p>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="informacao-para-decidir" aria-labelledby="decisions-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Informação para decisão</p><h2 id="decisions-title">O que mudou no resultado?<br />E na estrutura da empresa?</h2></div>
+      <div class="internal-prose"><p>Comparar períodos ajuda a observar a evolução das receitas, dos custos e das despesas. O balanço amplia essa leitura ao mostrar direitos, obrigações e a composição patrimonial em cada data.</p><p>Essas informações permitem formular perguntas sobre endividamento, saldos a receber, bens e resultados acumulados. Para interpretar mudanças, é necessário considerar os eventos do período e a consistência dos registros.</p><p>Elas também oferecem uma base para o <a href="/servicos/planejamento-tributario">planejamento tributário</a>, que relaciona os dados da operação aos cenários possíveis. As demonstrações apoiam a análise; as decisões também exigem projeções e conhecimento do negócio.</p></div>
+    </div>
+  </section>
+
+  <FAQ title="Entender os números começa pelas perguntas certas." description="Conceitos para acompanhar a informação contábil e conversar sobre as necessidades da sua empresa." items={faq} />
+  <RelatedServices slugs={['fiscal-e-tributario', 'planejamento-tributario']} />
+  <CTASection title="Seus registros ajudam a entender a empresa?" description="Converse com a Otimiza sobre a rotina contábil e as informações de que você precisa para acompanhar patrimônio e resultado." label="Conversar sobre contabilidade empresarial" message={message} />
+</BaseLayout>

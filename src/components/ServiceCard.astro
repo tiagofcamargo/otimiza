@@ -1,0 +1,13 @@
+---
+import Arrow from './Arrow.astro';
+import WhatsAppLink from './WhatsAppLink.astro';
+import { services, serviceNeeds } from '../data/services';
+interface Props { service: (typeof services)[number]; number: number; }
+const { service, number } = Astro.props;
+---
+<article class:list={['internal-service-card', { 'internal-service-card--featured': service.slug === 'planejamento-tributario' }]} id={service.slug} tabindex="-1" aria-labelledby={`${service.slug}-title`}>
+  <div class="internal-service-heading"><span class="service-number" aria-hidden="true">{String(number).padStart(2, '0')}</span><h3 id={`${service.slug}-title`}>{service.title}</h3></div>
+  <p>{service.description}</p>
+  <div class="service-situation"><p class="service-situation-label">Quando faz sentido</p><p>{serviceNeeds[service.slug].situation}</p></div>
+  {service.pagePublished ? <a class="text-link" href={`/servicos/${service.slug}`}><span>{service.detailLabel}</span><Arrow diagonal /></a> : <WhatsAppLink variant="text" message={service.message}>{service.linkLabel}</WhatsAppLink>}
+</article>

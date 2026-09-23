@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import InternalHero from '../components/InternalHero.astro';
+import CTASection from '../components/CTASection.astro';
+import TeamSection from '../components/TeamSection.astro';
+import Arrow from '../components/Arrow.astro';
+import '../styles/internal-pages.css';
+const breadcrumbs = [{ name: 'Início', href: '/' }, { name: 'Sobre' }];
+const principles = [
+  ['Segurança', 'Orientar com responsabilidade.', 'Uma recomendação precisa ter fundamento. Consideramos as informações disponíveis, as regras aplicáveis e as consequências da decisão.'],
+  ['Qualidade', 'Cuidar do que sustenta a análise.', 'Registros consistentes e atenção aos detalhes ajudam a transformar dados em informações úteis para o negócio.'],
+  ['Agilidade', 'Dar clareza ao próximo passo.', 'Organizar informações e prioridades permite conduzir a rotina e tratar as questões que exigem uma decisão.'],
+  ['Dedicação', 'Conhecer a realidade de quem decide.', 'Entender a operação e acompanhar suas mudanças faz parte de uma orientação conectada às necessidades da empresa.'],
+];
+---
+<BaseLayout title="Sobre a Otimiza | Técnica e clareza para decidir" description="Conheça a forma de pensar da Otimiza: responsabilidade técnica, compreensão do negócio e orientação clara, com atendimento contábil online." breadcrumbs={breadcrumbs} pageKind="AboutPage" mobileContact>
+  <InternalHero eyebrow="Sobre a Otimiza" lead="A Otimiza trabalha para transformar informações contábeis, fiscais e tributárias em orientações claras para quem precisa tomar decisões com segurança." breadcrumbs={breadcrumbs} cta="Falar com a Otimiza" secondary={{ label: 'Conhecer nossa forma de pensar', href: '#como-pensamos' }}>
+    Contabilidade exige técnica.<br /><span>Orientação exige contexto.</span>
+  </InternalHero>
+
+  <section class="section internal-warm" id="principios" aria-labelledby="principles-title">
+    <div class="container about-principles-layout">
+      <div class="internal-section-intro"><p class="eyebrow">O que orienta nosso trabalho</p><h2 id="principles-title">Confiança se constrói na forma de trabalhar.</h2><p>Quatro compromissos que dão direção à nossa atuação, da rotina contábil à análise de uma escolha importante.</p></div>
+      <div class="about-principles">{principles.map(([name, title, text], index) => <article>
+        <p class="principle-name"><span aria-hidden="true">0{index + 1}</span>{name}</p><h3>{title}</h3><p>{text}</p>
+      </article>)}</div>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="como-pensamos" aria-labelledby="thinking-title" tabindex="-1">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Como pensamos contabilidade</p><h2 id="thinking-title">Informação correta.<br /><span class="muted-heading">Uma leitura mais completa.</span></h2></div>
+      <div class="internal-prose"><p>As obrigações contábeis e fiscais fazem parte da vida da empresa. Cumpri-las com atenção exige registros confiáveis, documentos organizados e entendimento das atividades realizadas.</p><p>Essas informações também ajudam a compreender o negócio. Um resultado, uma contratação ou uma mudança na operação ganha significado quando é analisado junto das escolhas e dos objetivos de quem empreende.</p><p>Por isso, a orientação precisa explicar o que os dados mostram, quais alternativas existem e que consequências merecem ser consideradas.</p></div>
+    </div>
+  </section>
+
+  <section class="section dark-section" id="conhecimento" aria-labelledby="knowledge-title">
+    <div class="container about-knowledge">
+      <div><p class="eyebrow">Conhecimento aplicado ao negócio</p><h2 id="knowledge-title">Entender o impacto faz parte da entrega.</h2><p class="internal-lead">Uma obrigação tem prazo e forma. Uma decisão também tem efeitos sobre a empresa.</p></div>
+      <div class="application-example"><p class="application-label">Na prática</p><h3>Uma nova contratação.</h3><p>A rotina envolve informações e obrigações trabalhistas. A leitura do negócio também considera como essa decisão se relaciona com a folha, os custos e a capacidade da operação.</p><p>O conhecimento técnico ajuda a aproximar essas perspectivas e tornar os efeitos mais claros.</p><a class="text-link" href="/servicos">Conhecer as frentes de atuação <Arrow diagonal /></a></div>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="proximidade" aria-labelledby="proximity-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Proximidade na orientação</p><h2 id="proximity-title">Ouvir com atenção.<br /><span class="orange-text">Explicar com clareza.</span></h2></div>
+      <div class="internal-prose"><p>Atendimento próximo começa por compreender a pergunta e a realidade de quem a faz. Envolve explicar informações, acompanhar as questões tratadas e orientar os próximos passos com responsabilidade.</p><p>A conversa precisa ser compreensível para quem conduz o negócio. Quando uma escolha exige mais dados ou uma análise específica, isso também deve ficar claro.</p>
+        <div class="online-note"><p class="eyebrow">Atendimento online</p><h3>Digital na operação.<br />Próximo na conversa.</h3><p>A Otimiza atende de forma digital. A troca de informações e o acompanhamento online trazem praticidade ao relacionamento e facilitam o acesso à orientação contábil.</p></div>
+      </div>
+    </div>
+  </section>
+  <TeamSection />
+  <CTASection title="Uma boa orientação começa por entender sua empresa." description="Conte à Otimiza o que você precisa organizar, compreender ou decidir. Esse é o ponto de partida para a conversa." label="Falar com a Otimiza" />
+</BaseLayout>

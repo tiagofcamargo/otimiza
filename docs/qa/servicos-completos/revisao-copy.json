@@ -1,0 +1,73 @@
+{
+  "method": "Parágrafos de main com pelo menos 12 palavras; repetição literal entre as cinco páginas. Revisão editorial manual complementar de narrativa e sequência.",
+  "pages": {
+    "contabilidade-empresarial": {
+      "words_in_main": 938,
+      "section_headings": [
+        "Registrar é o começo.Compreender é o que dá sentido.",
+        "Resultado contábilnão é o mesmo que caixa.",
+        "Dos documentos às demonstrações.",
+        "Trabalho e participação nos lucros são assuntos diferentes.",
+        "O que mudou no resultado?E na estrutura da empresa?",
+        "Entender os números começa pelas perguntas certas.",
+        "Você também pode precisar de",
+        "Seus registros ajudam a entender a empresa?"
+      ]
+    },
+    "fiscal-e-tributario": {
+      "words_in_main": 1040,
+      "section_headings": [
+        "A rotina fiscal começa antes da apuração.",
+        "Uma informação percorre várias etapas.",
+        "A sigla não explicatoda a incidência.",
+        "A forma de apurar também organiza a rotina.",
+        "Antes de regularizar,é preciso diagnosticar.",
+        "Dúvidas que fazem parte da rotina fiscal.",
+        "Você também pode precisar de",
+        "Há uma operação ou pendência fiscal que precisa de análise?"
+      ]
+    },
+    "departamento-pessoal": {
+      "words_in_main": 805,
+      "section_headings": [
+        "Cada momento pede uma informação diferente.",
+        "Uma rotina organizada depende de comunicação.",
+        "Os registros precisam conversar entre si.",
+        "Pró-labore também exige uma leitura própria.",
+        "Dúvidas sobre a rotina de pessoal.",
+        "Você também pode precisar de",
+        "Organizar a rotina começa por informações bem alinhadas."
+      ]
+    },
+    "abertura-de-empresa": {
+      "words_in_main": 1037,
+      "section_headings": [
+        "Primeiro, entender o negócio que vai funcionar.",
+        "Escolhas conectadas desde o início.",
+        "O nome parecido não basta para definir a atividade.",
+        "Participação e responsabilidades precisam estar claras.",
+        "O regime deve fazer sentido para a operação prevista.",
+        "Formalizar e preparar a operação.",
+        "O registro dá lugar à rotina da empresa.",
+        "Perguntas antes de abrir a empresa.",
+        "Você também pode precisar de",
+        "Vamos analisar as escolhas que vêm antes do registro?"
+      ]
+    },
+    "troca-de-contador": {
+      "words_in_main": 957,
+      "section_headings": [
+        "Sim. A mudança precisa ser alinhada.",
+        "O atendimento precisa acompanhar as necessidades do negócio.",
+        "Uma passagem de informações com começo claro.",
+        "Da primeira leitura à continuidade.",
+        "Identificar antes de encaminhar.",
+        "Comunicação profissional preserva a continuidade.",
+        "Dúvidas sobre a mudança de contador.",
+        "Você também pode precisar de",
+        "Vamos entender o que sua transição precisa organizar?"
+      ]
+    }
+  },
+  "duplicate_paragraphs": []
+}

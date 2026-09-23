@@ -1,0 +1,159 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HomeIntro from '../components/HomeIntro.astro';
+import WhatsAppLink from '../components/WhatsAppLink.astro';
+import Arrow from '../components/Arrow.astro';
+import { enabledServices } from '../data/services';
+
+const decisions = [
+  ['Regime tributário', 'A análise precisa considerar a atividade, os resultados e a estrutura da operação.'],
+  ['Estrutura societária', 'A composição da empresa influencia responsabilidades e os caminhos do negócio.'],
+  ['Conformidade fiscal', 'Documentos, apurações e obrigações precisam refletir o que acontece na operação.'],
+  ['Folha e relações de trabalho', 'Cada vínculo exige atenção às informações, aos prazos e às obrigações envolvidas.'],
+];
+const steps = [
+  ['Entender', 'Compreender a empresa, sua operação e o contexto da decisão.'],
+  ['Analisar', 'Avaliar informações, obrigações e consequências envolvidas.'],
+  ['Orientar', 'Explicar os caminhos possíveis e apoiar uma decisão consciente.'],
+];
+const criteria = [
+  ['Operação', 'O que a empresa faz e como está estruturada.'],
+  ['Regime', 'As regras aplicáveis a cada cenário.'],
+  ['Projeções', 'Receita, margem, folha e despesas no horizonte.'],
+  ['Consequências', 'Os impactos e as responsabilidades de cada escolha.'],
+];
+const faq = [
+  {
+    question: 'Posso trocar de contador a qualquer momento?',
+    answer: 'A troca pode ser planejada, mas é importante verificar o contrato atual, eventuais prazos de aviso e as responsabilidades de cada profissional. A transição deve organizar documentos, saldos e obrigações para preservar a continuidade da rotina contábil.',
+  },
+  {
+    question: 'O que é analisado em um planejamento tributário?',
+    answer: 'Atividade, faturamento, margem, folha, despesas e estrutura da operação estão entre os fatores considerados. A análise compara cenários conforme a legislação aplicável, sem se limitar à menor alíquota e sem pressupor economia em todos os casos.',
+  },
+  {
+    question: 'O que preciso considerar antes de abrir uma empresa?',
+    answer: 'Atividade e CNAE, natureza jurídica, sócios, endereço, regime tributário e exigências de registro e licenciamento. Essas decisões precisam ser compatíveis com a operação que a empresa pretende desenvolver.',
+  },
+  {
+    question: 'Como saber qual regime tributário é adequado para minha empresa?',
+    answer: 'O faturamento, sozinho, não responde a essa pergunta. É preciso avaliar as condições de enquadramento, a atividade, os custos, a margem e a folha, entre outros fatores. Uma comparação com dados da empresa permite compreender os efeitos de cada alternativa.',
+  },
+  {
+    question: 'Como funciona o primeiro contato com a Otimiza?',
+    answer: 'Nosso atendimento é online. Conte brevemente sobre a sua empresa e a questão que deseja analisar. Essa conversa ajuda a entender a necessidade e a orientar o próximo passo. Utilize o canal disponível na seção de contato.',
+  },
+];
+---
+<BaseLayout home>
+  <HomeIntro />
+
+  <section class="section decisions-section" aria-labelledby="decisions-title">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow">O valor da análise</p><h2 id="decisions-title">Há decisões que não admitem <span class="orange-text">achismo.</span></h2></div>
+        <p class="section-description">Uma escolha tributária, uma mudança societária ou uma contratação produz efeitos que precisam ser compreendidos antes da decisão.</p>
+      </div>
+      <ol class="decisions-grid">
+        {decisions.map(([title, description], index) => <li>
+          <span class="topic-number" aria-hidden="true">0{index + 1}</span>
+          <div><h3>{title}</h3><p>{description}</p></div>
+        </li>)}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section services-section" id="servicos" aria-labelledby="services-title" tabindex="-1">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow">Nossos serviços</p><h2 id="services-title">O apoio contábil que <span class="orange-text">cada etapa exige.</span></h2></div>
+        <p class="section-description">Da abertura à rotina da empresa, conhecimento aplicado às questões que fazem parte do seu negócio.</p>
+      </div>
+      <ol class="services-grid">
+        {enabledServices.map((service, index) => <li>
+          <span class="service-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+          <h3>{service.pagePublished ? <a href={`/servicos/${service.slug}`} style="color: inherit; text-decoration: none;">{service.title}</a> : service.title}</h3>
+          <p>{service.description}</p>
+          <WhatsAppLink variant="text" message={service.message}>{service.linkLabel}</WhatsAppLink>
+        </li>)}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section method-section" id="como-trabalhamos" aria-labelledby="method-title" tabindex="-1">
+    <div class="container">
+      <p class="eyebrow">Como a Otimiza trabalha</p>
+      <h2 id="method-title">Conhecimento para interpretar.<br /><span class="muted-heading">Proximidade para orientar.</span></h2>
+      <ol class="method-steps">
+        {steps.map(([title, description], index) => <li>
+          <div class="method-top"><span class="method-number" aria-hidden="true">0{index + 1}</span>{index < 2 && <Arrow />}</div>
+          <div><h3>{title}</h3><p>{description}</p></div>
+        </li>)}
+      </ol>
+      <p class="method-closing">O seu contexto é o ponto de partida.<br />Uma decisão consciente é o objetivo.</p>
+    </div>
+  </section>
+
+  <section class="section tax-section dark-section" id="planejamento" aria-labelledby="tax-title">
+    <div class="container">
+      <div class="tax-heading">
+        <div>
+          <p class="eyebrow">Planejamento tributário</p>
+          <h2 id="tax-title">A decisão tributária começa <span>antes da apuração.</span></h2>
+        </div>
+        <p class="tax-lead">Atividade, margem, folha, despesas e estrutura da operação precisam fazer parte da análise. O planejamento compara cenários e considera o que a legislação permite.</p>
+      </div>
+      <div class="tax-perspectives">
+        <div class="tax-principle"><p>Uma análise.<br /><span>Diferentes perspectivas.</span></p><span class="perspective-arrow" aria-hidden="true">↗</span></div>
+        <dl class="criteria-grid">
+          {criteria.map(([title, description], index) => <div>
+            <dt><span class="criterion-number" aria-hidden="true">0{index + 1}</span>{title}</dt><dd>{description}</dd>
+          </div>)}
+        </dl>
+      </div>
+      <div class="tax-bottom">
+        <p>Critério antes da escolha.</p>
+        <WhatsAppLink message="Olá, vim pelo site da Otimiza e gostaria de conversar sobre planejamento tributário.">Conversar sobre planejamento tributário</WhatsAppLink>
+      </div>
+    </div>
+  </section>
+
+  <section class="section transition-section" aria-labelledby="transition-title">
+    <div class="container transition-layout">
+      <div class="transition-intro">
+        <p class="eyebrow">Troca de contador</p>
+        <h2 id="transition-title">Seu contador deveria ajudar a <span class="orange-text">esclarecer decisões.</span></h2>
+        <p>A mudança começa com um levantamento: documentos, obrigações, saldos e responsabilidades precisam estar organizados para conduzir a transição.</p>
+        <WhatsAppLink message="Olá, vim pelo site da Otimiza e gostaria de entender como funciona a troca de contador.">Quero conversar sobre a troca de contador</WhatsAppLink>
+      </div>
+      <div class="transition-process">
+        <p class="process-heading">Uma transição começa com organização.</p>
+        <ol>
+          <li><span aria-hidden="true">01</span><div><h3>Levantamento</h3><p>Conhecer a situação e reunir as informações necessárias.</p></div></li>
+          <li><span aria-hidden="true">02</span><div><h3>Alinhamento da transição</h3><p>Definir responsabilidades e a continuidade das obrigações.</p></div></li>
+          <li><span aria-hidden="true">03</span><div><h3>Conferência das informações</h3><p>Verificar documentos e saldos que sustentam a rotina contábil.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section faq-section" id="perguntas-frequentes" aria-labelledby="faq-title" tabindex="-1">
+    <div class="container faq-layout">
+      <div class="faq-intro">
+        <p class="eyebrow">Perguntas frequentes</p>
+        <h2 id="faq-title">Clareza desde a primeira conversa.</h2>
+        <p>Algumas respostas para você entender o próximo passo.</p>
+      </div>
+      <div class="faq-list">
+        {faq.map(({ question, answer }) => <details><summary>{question}<span class="faq-indicator" aria-hidden="true"></span></summary><p>{answer}</p></details>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section final-cta dark-section" id="converse" aria-labelledby="final-title">
+    <div class="container final-layout">
+      <div class="final-copy"><p class="eyebrow">Conhecimento para o seu próximo passo</p><h2 id="final-title">Tem uma decisão contábil ou tributária <span>importante pela frente?</span></h2><p>Converse com quem pode analisar o contexto antes de indicar o caminho.</p><WhatsAppLink>Falar com um especialista</WhatsAppLink></div>
+      <div class="final-brand" aria-hidden="true"><img src="/brand/simbolo-preto-320.png" width="320" height="320" alt="" loading="lazy" /><span>O próximo passo<br />começa com contexto.</span></div>
+    </div>
+  </section>
+</BaseLayout>

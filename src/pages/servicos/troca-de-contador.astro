@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InternalHero from '../../components/InternalHero.astro';
+import FAQ from '../../components/FAQ.astro';
+import CTASection from '../../components/CTASection.astro';
+import RelatedServices from '../../components/RelatedServices.astro';
+import { services } from '../../data/services';
+import { transitionFAQ } from '../../data/remaining-service-faq';
+import '../../styles/internal-pages.css';
+const service = services.find(service => service.slug === 'troca-de-contador')!;
+const breadcrumbs = [{ name: 'Início', href: '/' }, { name: 'Serviços', href: '/servicos' }, { name: service.title }];
+const information = [
+  ['Documentos e saldos', 'A base contábil', 'Demonstrações, arquivos de escrituração, saldos e documentos de suporte ajudam a compreender de onde a rotina continuará.'],
+  ['Acessos e procurações', 'A atuação autorizada', 'Sistemas, permissões e procurações precisam ser identificados para planejar a transferência de acesso e as autorizações necessárias.'],
+  ['Obrigações e folha', 'O que está em andamento', 'Entregas realizadas, recibos, períodos abertos e informações dos vínculos de trabalho permitem alinhar o que falta concluir.'],
+  ['Pendências e situação fiscal', 'O que pede diagnóstico', 'Avisos, inconsistências e obrigações pendentes precisam ser levantados com seus períodos e documentos, antes de definir um encaminhamento.'],
+];
+const stages = [
+  ['Diagnóstico inicial', 'Compreender a empresa, o motivo da mudança e as condições conhecidas da rotina atual.'],
+  ['Levantamento de informações', 'Identificar arquivos, documentos, acessos, saldos e obrigações que precisam ser compartilhados.'],
+  ['Alinhamento da transição', 'Definir datas, responsabilidades e forma de entrega das informações entre as partes.'],
+  ['Conferência', 'Verificar o material recebido, sua consistência e os pontos que ainda precisam de esclarecimento.'],
+  ['Continuidade', 'Organizar a rotina seguinte a partir das informações e das responsabilidades alinhadas.'],
+];
+---
+<BaseLayout title="Troca de contador | Transição organizada — Otimiza" description="Entenda como organizar a troca de contador: documentos, acessos, saldos, obrigações em andamento e responsabilidades para dar continuidade à rotina." breadcrumbs={breadcrumbs} pageKind="Service" mobileContact contactMessage={service.message}>
+  <InternalHero eyebrow={service.title} lead="Uma transição organizada começa pelo levantamento de documentos, acessos, obrigações, saldos e responsabilidades." breadcrumbs={breadcrumbs} cta="Quero conversar sobre a troca de contador" message={service.message} secondary={{ label: 'Entender a transição', href: '#posso-trocar' }}>
+    Mudar de contador não precisa significar <span>perder o controle das informações.</span>
+  </InternalHero>
+
+  <section class="section internal-white" id="posso-trocar" aria-labelledby="change-title" tabindex="-1">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Posso trocar de contador?</p><h2 id="change-title">Sim. A mudança precisa ser alinhada.</h2></div>
+      <div class="internal-prose"><p>É possível organizar a mudança de atendimento contábil. O contrato atual, eventuais condições de aviso e as obrigações em curso precisam ser verificados para definir como a transição acontecerá.</p><p>O ponto central é preservar as informações e deixar claro quem responde por cada entrega e período. A nova rotina deve começar com uma base compreendida, e não apenas com a troca de um acesso.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-peach" id="quando-considerar" aria-labelledby="consider-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Quando considerar uma mudança</p><h2 id="consider-title">O atendimento precisa acompanhar as necessidades do negócio.</h2></div>
+      <div class="internal-prose"><p>O crescimento da empresa, uma operação mais complexa ou a necessidade de outro tipo de orientação podem motivar uma avaliação do atendimento contábil.</p><p>Dificuldade para compreender as informações ou para acessá-las também pode ser um ponto de conversa. Antes de decidir, vale identificar o que precisa melhorar e qual apoio a empresa espera receber.</p><p>Essa avaliação ajuda a definir o escopo da nova relação, sem presumir que toda dificuldade tem a mesma causa.</p></div>
+    </div>
+  </section>
+
+  <section class="section dark-section" id="levantamento" aria-labelledby="handover-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">O que precisa ser levantado</p><h2 id="handover-title">Uma passagem de informações <span class="internal-yellow">com começo claro.</span></h2></div><p class="section-description">O levantamento muda conforme a empresa e o trabalho realizado. Estas frentes ajudam a situar a conversa e a identificar o que precisa ser conferido.</p></div>
+      <div class="tax-analysis-grid">{information.map(([title, label, text]) => <article><p class="analysis-label">{label}</p><h3>{title}</h3><p>{text}</p></article>)}</div>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="transicao" aria-labelledby="transition-model-title">
+    <div class="container internal-split analysis-layout">
+      <div><p class="eyebrow">Como a transição pode ser organizada</p><h2 id="transition-model-title">Da primeira leitura à continuidade.</h2><p class="internal-lead">Um modelo conceitual para entender a passagem de informações. O escopo, as datas e as responsabilidades precisam ser definidos conforme a situação e os contratos envolvidos.</p></div>
+      <ol class="analysis-steps">{stages.map(([title, text], index) => <li><span aria-hidden="true">0{index + 1}</span><div><h3>{title}</h3><p>{text}</p></div></li>)}</ol>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="pendencias" aria-labelledby="pending-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">E se existirem pendências?</p><h2 id="pending-title">Identificar antes de encaminhar.</h2></div>
+      <div class="internal-prose"><p>Uma pendência precisa ser compreendida: o que foi identificado, a que período se refere e quais informações a sustentam. A troca de atendimento não resolve automaticamente uma inconsistência ou obrigação anterior.</p><p>Questões de documentos, apuração e situação fiscal podem exigir uma análise da área <a href="/servicos/fiscal-e-tributario">fiscal e tributária</a>. Saldos e registros precisam ser conferidos junto da <a href="/servicos/contabilidade-empresarial">contabilidade empresarial</a>.</p><p>O diagnóstico ajuda a distinguir o que pode seguir na rotina e o que exige um trabalho específico, sem prometer solução antes de conhecer o problema.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="transferencia" aria-labelledby="transfer-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">A relação com o contador anterior</p><h2 id="transfer-title">Comunicação profissional preserva a continuidade.</h2></div>
+      <div class="internal-prose"><p>O atendimento anterior faz parte da trajetória das informações da empresa. Solicitações claras, definição dos arquivos e alinhamento dos períodos de responsabilidade contribuem para uma transferência organizada.</p><p>Eventuais divergências devem ser tratadas com base nos documentos, nas condições contratuais e nas regras aplicáveis. O objetivo é esclarecer o que precisa ser entregue e conferido, mantendo uma comunicação respeitosa entre as partes.</p></div>
+    </div>
+  </section>
+  <FAQ title="Dúvidas sobre a mudança de contador." description="O planejamento da transição começa por esclarecer documentos, responsabilidades e condições do atendimento." items={transitionFAQ} />
+  <RelatedServices slugs={['contabilidade-empresarial', 'fiscal-e-tributario']} />
+  <CTASection title="Vamos entender o que sua transição precisa organizar?" description="Conte à Otimiza sobre a rotina atual e o que você espera do novo atendimento. A conversa ajuda a identificar as informações necessárias para avaliar a mudança." label="Quero conversar sobre a troca de contador" message={service.message} />
+</BaseLayout>

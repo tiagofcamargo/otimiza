@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InternalHero from '../../components/InternalHero.astro';
+import FAQ from '../../components/FAQ.astro';
+import CTASection from '../../components/CTASection.astro';
+import RelatedServices from '../../components/RelatedServices.astro';
+import { services } from '../../data/services';
+import { openingFAQ } from '../../data/remaining-service-faq';
+import '../../styles/internal-pages.css';
+const service = services.find(service => service.slug === 'abertura-de-empresa')!;
+const breadcrumbs = [{ name: 'Início', href: '/' }, { name: 'Serviços', href: '/servicos' }, { name: service.title }];
+const definitions = [
+  ['A atividade', 'O que será feito', 'Produtos, serviços e forma de operação orientam a descrição do negócio e a análise dos CNAEs.'],
+  ['A organização', 'Quem participa e como', 'Natureza jurídica, quadro societário e capital precisam ser definidos a partir da estrutura pretendida.'],
+  ['As condições', 'Onde e sob quais regras', 'Endereço, regime tributário e exigências aplicáveis devem ser verificados junto das decisões de atividade e estrutura.'],
+];
+// REVISÃO TÉCNICA OTIMIZA: registros, inscrições, viabilidade e licenciamento
+// dependem da natureza jurídica, atividade e localidade. Não há sequência universal.
+const registrations = [
+  ['Registro empresarial', 'Os atos e o órgão de registro pertinentes dependem da forma jurídica e da estrutura que será constituída.'],
+  ['CNPJ', 'O cadastro identifica a pessoa jurídica e deve ser coerente com os dados e atividades definidos para o negócio.'],
+  ['Inscrições', 'Inscrições e habilitações fiscais podem ser necessárias conforme a atividade, a operação e os entes envolvidos.'],
+  ['Licenças e autorizações', 'As condições para operar devem ser verificadas conforme o local, a atividade e as exigências dos órgãos competentes.'],
+];
+---
+<BaseLayout title="Abertura de empresa e CNPJ | Orientação contábil — Otimiza" description="Entenda o que definir antes de abrir uma empresa: atividade, CNAE, sociedade, endereço, regime tributário, registros e organização da rotina após o CNPJ." breadcrumbs={breadcrumbs} pageKind="Service" mobileContact contactMessage={service.message}>
+  <InternalHero eyebrow={service.title} lead="Atividade, CNAE, sociedade, endereço, regime tributário e forma de operação precisam ser considerados antes dos registros." breadcrumbs={breadcrumbs} cta="Conversar sobre abertura de empresa" message={service.message} secondary={{ label: 'Conhecer as decisões iniciais', href: '#antes-do-cnpj' }}>
+    Abrir um CNPJ é uma etapa.<br /><span>Estruturar a empresa corretamente vem antes.</span>
+  </InternalHero>
+
+  <section class="section internal-white" id="antes-do-cnpj" aria-labelledby="before-title" tabindex="-1">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Antes do CNPJ</p><h2 id="before-title">Primeiro, entender o negócio que vai funcionar.</h2></div>
+      <div class="internal-prose"><p>Uma empresa começa com uma atividade que precisa ser descrita com precisão. O que será vendido ou prestado, quem participará e como a operação acontecerá são perguntas anteriores ao preenchimento dos cadastros.</p><p>Essas escolhas podem repercutir na tributação, na emissão de notas, no licenciamento e na estrutura futura. A análise inicial ajuda a identificar condições que precisam ser verificadas antes de formalizar o negócio.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="definicoes" aria-labelledby="definitions-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">O que precisa ser definido</p><h2 id="definitions-title">Escolhas conectadas desde o início.</h2></div><p class="section-description">Atividade, estrutura e condições de operação se influenciam. Não existe um conjunto de respostas que sirva para toda empresa.</p></div>
+      <div class="regime-grid opening-definitions">{definitions.map(([label, title, text]) => <article class="internal-panel"><p class="comparison-label">{label}</p><h3>{title}</h3><p>{text}</p></article>)}</div>
+    </div>
+  </section>
+
+  <section class="section dark-section" id="cnae" aria-labelledby="cnae-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">CNAE importa</p><h2 id="cnae-title">O nome parecido não basta para definir a atividade.</h2></div>
+      <div class="cnae-copy"><p>A Classificação Nacional de Atividades Econômicas organiza atividades para fins cadastrais. Escolher uma descrição apenas pela semelhança do nome pode deixar de fora características importantes do que a empresa realmente fará.</p><p>A classificação precisa ser lida com suas descrições e notas explicativas. Também é necessário verificar sua relação com o enquadramento, as obrigações e as condições de funcionamento aplicáveis.</p><p>Uma empresa que presta serviços, comercializa produtos ou combina atividades pode exigir verificações diferentes. A descrição da operação é o ponto de partida dessa escolha.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="sociedade" aria-labelledby="structure-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Estrutura societária</p><h2 id="structure-title">Participação e responsabilidades precisam estar claras.</h2></div>
+      <div class="internal-prose"><p>Quem participa do negócio, como o capital será formado e como a empresa será organizada são decisões que devem refletir a realidade pretendida. A natureza jurídica e o quadro societário fazem parte dessa definição.</p><p>As consequências variam conforme a estrutura escolhida. Pontos contratuais ou de responsabilidade que exijam avaliação jurídica específica devem receber essa análise, sem tratar o cadastro como uma resposta suficiente.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-peach" id="tributacao" aria-labelledby="tax-choice-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">Tributação na abertura</p><h2 id="tax-choice-title">O regime deve fazer sentido para a operação prevista.</h2></div>
+      <div class="internal-prose"><p>Projeções de receita, margem, despesas e folha ajudam a comparar alternativas. As condições de enquadramento e a atividade também precisam ser verificadas.</p><p>O <a href="/servicos/planejamento-tributario">planejamento tributário</a> organiza essa comparação e seus limites. Escolher pela menor alíquota aparente, sem considerar as demais premissas, pode produzir uma leitura incompleta.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="registros" aria-labelledby="registration-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Registros e condições de funcionamento</p><h2 id="registration-title">Formalizar e preparar a operação.</h2></div><p class="section-description">O caminho depende do tipo de empresa e da localidade. Estes são assuntos a verificar, não uma sequência obrigatória para todos os casos.</p></div>
+      <div class="review-signals registration-grid">{registrations.map(([title, text]) => <article><h3>{title}</h3><p>{text}</p></article>)}</div>
+      <div class="opening-invoice"><h3>E a emissão de nota?</h3><p>Ter o CNPJ não responde, sozinho, quais documentos a empresa poderá emitir. Inscrições, habilitações e sistemas precisam ser verificados de acordo com a atividade, a operação e a localidade. A <a href="/servicos/fiscal-e-tributario">orientação fiscal e tributária</a> ajuda a compreender essas condições.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="depois-da-abertura" aria-labelledby="after-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Depois da abertura</p><h2 id="after-title">O registro dá lugar à rotina da empresa.</h2></div><p class="section-description">Documentos, obrigações e prazos precisam ser organizados desde o começo. A estrutura inicial deve permitir que essa rotina acompanhe a operação.</p></div>
+      <div class="internal-split">
+        <div class="internal-prose"><h3>Registros que acompanham o negócio.</h3><p>A <a href="/servicos/contabilidade-empresarial">contabilidade empresarial</a> organiza os fatos econômicos e patrimoniais. A área fiscal acompanha os documentos e as obrigações ligados às operações realizadas.</p></div>
+        <div class="internal-prose"><h3>Informações sobre quem trabalha.</h3><p>Quando houver vínculos e remunerações a tratar, o <a href="/servicos/departamento-pessoal">departamento pessoal</a> precisa receber as informações pertinentes. Contratações e alterações devem ser comunicadas em tempo de avaliar os procedimentos aplicáveis.</p></div>
+      </div>
+    </div>
+  </section>
+  <FAQ title="Perguntas antes de abrir a empresa." description="As escolhas iniciais merecem uma verificação cuidadosa, sem respostas prontas para negócios diferentes." items={openingFAQ} />
+  <RelatedServices slugs={['planejamento-tributario', 'contabilidade-empresarial', 'departamento-pessoal']} />
+  <CTASection title="Vamos analisar as escolhas que vêm antes do registro?" description="Conte à Otimiza o que sua empresa pretende fazer e como será organizada. A conversa começa pelo negócio que você quer colocar em funcionamento." label="Conversar sobre abertura de empresa" message={service.message} />
+</BaseLayout>
+<style>
+  .opening-definitions h3 { margin-top: var(--space-6); }
+  .cnae-copy { color: var(--text-on-dark); }
+  .cnae-copy p + p { margin-top: var(--space-6); }
+  .registration-grid article { background: var(--surface); }
+  .opening-invoice { margin-top: var(--space-10); padding: var(--space-8); background: var(--surface-yellow); border-radius: var(--card-radius); }
+  .opening-invoice p { max-width: 75ch; margin-top: var(--space-4); }
+  #depois-da-abertura h3 + p { margin-top: var(--space-5); }
+</style>

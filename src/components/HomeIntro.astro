@@ -1,0 +1,60 @@
+---
+import WhatsAppLink from './WhatsAppLink.astro';
+import Arrow from './Arrow.astro';
+import { buildWhatsAppUrl, generalMessage } from '../utils/whatsapp';
+const hasWhatsApp = Boolean(buildWhatsAppUrl(generalMessage));
+const values = [
+  { name: 'Segurança', description: 'Contexto e responsabilidade em cada orientação.' },
+  { name: 'Qualidade', description: 'Atenção técnica aos detalhes que fazem diferença.' },
+  { name: 'Agilidade', description: 'Clareza para dar o próximo passo.' },
+  { name: 'Dedicação', description: 'Proximidade para compreender o seu negócio.' },
+];
+---
+<section class="advisory-hero" id="inicio" aria-labelledby="hero-title">
+  <div class="intro-container hero-composition">
+    <div class="hero-copy">
+      <p class="hero-eyebrow"><span aria-hidden="true"></span>Assessoria contábil para empresas</p>
+      <h1 id="hero-title">Contabilidade para decisões que exigem <span>conhecimento de verdade.</span></h1>
+      <p class="hero-description">Números, legislação e contexto precisam ser analisados juntos. Conte com orientação contábil para compreender os impactos de cada decisão no seu negócio.</p>
+      <div class="hero-actions">
+        <WhatsAppLink id="hero-contact" hero>Falar com um especialista</WhatsAppLink>
+        <a class="text-link" href="/servicos">Conhecer nossos serviços <Arrow /></a>
+      </div>
+      {!hasWhatsApp && <p class="contact-note">WhatsApp em breve. <a href="#contato">Veja como falar com a Otimiza.</a></p>}
+    </div>
+    <div class="hero-visual">
+      <figure class="hero-art">
+        <picture>
+          <source type="image/avif" srcset="/illustrations/decisao-480.avif 480w, /illustrations/decisao-800.avif 800w, /illustrations/decisao-1120.avif 1120w" sizes="(min-width: 1440px) 550px, (min-width: 1000px) 42vw, (min-width: 768px) 580px, calc(100vw - 32px)" />
+          <img src="/illustrations/decisao-800.webp" srcset="/illustrations/decisao-480.webp 480w, /illustrations/decisao-800.webp 800w, /illustrations/decisao-1120.webp 1120w" sizes="(min-width: 1440px) 550px, (min-width: 1000px) 42vw, (min-width: 768px) 580px, calc(100vw - 32px)" alt="" width="1120" height="1400" decoding="async" fetchpriority="high" />
+        </picture>
+        <div class="context-card">
+        <span class="context-marker" aria-hidden="true">↗</span>
+        <p>Toda decisão<br />tem um contexto.</p>
+        <ul>
+          <li>A operação da empresa</li>
+          <li>As obrigações envolvidas</li>
+          <li>As consequências de cada escolha</li>
+        </ul>
+        </div>
+        <figcaption>Imagem conceitual. Não representa a equipe da Otimiza.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="advisory-values" aria-labelledby="values-title">
+  <div class="intro-container">
+    <div class="values-heading">
+      <p class="hero-eyebrow"><span aria-hidden="true"></span>O que sustenta nossa orientação</p>
+      <h2 id="values-title">Conhecimento que aproxima.<br /><span>Confiança que se constrói.</span></h2>
+    </div>
+    <ol class="values-grid">
+      {values.map(({ name, description }, index) => <li>
+        <span class="value-number" aria-hidden="true">0{index + 1}</span>
+        <h3>{name}</h3>
+        <p>{description}</p>
+      </li>)}
+    </ol>
+  </div>
+</section>

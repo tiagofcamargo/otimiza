@@ -1,0 +1,74 @@
+{
+  "lighthouse-contato-desktop.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "LCP": "0.3 s",
+    "CLS": "0",
+    "TBT": "0 ms"
+  },
+  "lighthouse-contato-mobile.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "LCP": "1.5 s",
+    "CLS": "0",
+    "TBT": "0 ms"
+  },
+  "lighthouse-home-desktop.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "LCP": "0.4 s",
+    "CLS": "0",
+    "TBT": "0 ms"
+  },
+  "lighthouse-home-mobile.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "LCP": "1.9 s",
+    "CLS": "0",
+    "TBT": "0 ms"
+  },
+  "lighthouse-perguntas-frequentes-desktop.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "LCP": "0.3 s",
+    "CLS": "0",
+    "TBT": "0 ms"
+  },
+  "lighthouse-perguntas-frequentes-mobile.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "LCP": "1.4 s",
+    "CLS": "0",
+    "TBT": "0 ms"
+  }
+}

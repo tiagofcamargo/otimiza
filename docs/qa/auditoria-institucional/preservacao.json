@@ -1,0 +1,20 @@
+{
+  "src/styles/tokens.css": true,
+  "src/styles/reset.css": true,
+  "src/styles/typography.css": true,
+  "src/styles/global.css": true,
+  "src/styles/home-intro.css": true,
+  "src/styles/home-sections.css": true,
+  "src/styles/internal-pages.css": true,
+  "src/pages/servicos/index.astro": true,
+  "src/pages/servicos/planejamento-tributario.astro": true,
+  "src/pages/servicos/contabilidade-empresarial.astro": true,
+  "src/pages/servicos/fiscal-e-tributario.astro": true,
+  "src/pages/servicos/departamento-pessoal.astro": true,
+  "src/pages/servicos/abertura-de-empresa.astro": true,
+  "src/pages/servicos/troca-de-contador.astro": true,
+  "src/pages/sobre.astro": true,
+  "src/pages/index.astro": true,
+  "src/components/Header.astro": false,
+  "src/components/Footer.astro": false
+}

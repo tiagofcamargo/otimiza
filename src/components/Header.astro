@@ -1,0 +1,61 @@
+---
+import WhatsAppLink from './WhatsAppLink.astro';
+import { navigation as links } from '../data/navigation';
+const current = Astro.url.pathname.replace(/\/$/, '') || '/';
+const active = (href: string) => current === href ? 'page' : href === '/servicos' && current.startsWith('/servicos/') ? 'location' : undefined;
+---
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand-link" href="/" aria-label="Otimiza Assessoria Contábil — início">
+      <img class="header-wordmark" src="/brand/logo-horizontal-preta-640.png" width="640" height="114" alt="" fetchpriority="high" />
+      <img class="header-symbol" src="/brand/simbolo-preto-96.png" width="96" height="96" alt="" />
+    </a>
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      {links.map(({ href, label }) => <a href={href} aria-current={active(href)}>{label}</a>)}
+    </nav>
+    <WhatsAppLink class="header-cta">Falar com um especialista</WhatsAppLink>
+    <details class="mobile-menu" id="mobile-menu">
+      <summary><span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"></span></summary>
+      <nav aria-label="Navegação mobile">
+        <a href="/" aria-current={current === '/' ? 'page' : undefined}>Início</a>
+        {links.map(({ href, label }) => <a href={href} aria-current={active(href)}>{label}</a>)}
+        <WhatsAppLink>Falar com um especialista</WhatsAppLink>
+      </nav>
+    </details>
+  </div>
+</header>
+<script>
+  const menu = document.querySelector<HTMLDetailsElement>('#mobile-menu');
+  const summary = menu?.querySelector('summary');
+  if (menu && summary) {
+    const close = (returnFocus = false) => {
+      menu.open = false;
+      if (returnFocus) summary.focus();
+    };
+    menu.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && menu.open) { event.preventDefault(); close(true); }
+    });
+    menu.querySelectorAll<HTMLAnchorElement>('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        close();
+        const hash = new URL(link.href).hash;
+        if (hash) {
+          const target = document.getElementById(hash.slice(1));
+          if (target) { target.setAttribute('tabindex', '-1'); target.focus({ preventScroll: true }); }
+        }
+      });
+    });
+    window.matchMedia('(min-width: 1200px)').addEventListener('change', (event) => {
+      if (event.matches) close();
+    });
+  }
+</script>
+
+<style>
+  nav a[aria-current] { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+  .mobile-menu nav { max-height: calc(100svh - 5.5rem); overflow-y: auto; overscroll-behavior: contain; }
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    .header-wordmark { width: 20rem; }
+    .desktop-nav { gap: var(--space-4); }
+  }
+</style>

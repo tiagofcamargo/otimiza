@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { business } from '../data/business';
+import '../styles/internal-pages.css';
+const breadcrumbs = [{name:'Início',href:'/'},{name:'Política de Privacidade'}];
+// Proposta de política: confirmar práticas da hospedagem, retenção e fornecedores.
+// Definir e aprovar um canal de privacidade antes do go-live definitivo.
+// Não presumir encarregado nem transformar o WhatsApp comercial em canal LGPD.
+---
+<BaseLayout title="Política de Privacidade | Otimiza" description="Saiba como o site da Otimiza trata a navegação, o uso de canais externos e questões de privacidade, incluindo informações sobre cookies e seus direitos." breadcrumbs={breadcrumbs} pageKind="WebPage">
+  <section class="internal-hero privacy-hero" id="inicio" aria-labelledby="privacy-title"><div class="container"><Breadcrumbs items={breadcrumbs} /><div class="internal-hero-copy"><p class="eyebrow">Política de Privacidade</p><h1 id="privacy-title">Privacidade na sua <span>navegação.</span></h1><p class="internal-lead">Informações sobre este site e os canais que você pode escolher para falar com a Otimiza.</p></div></div></section>
+  <div class="container privacy-content">
+    <section aria-labelledby="policy-about"><h2 id="policy-about">Sobre esta política</h2><p>Esta política descreve o tratamento de dados relacionado ao site institucional da Otimiza Assessoria Contábil e aos contatos iniciados pelos canais indicados nele.</p><p>O site apresenta a empresa e seus serviços. Não possui formulário, cadastro, login, checkout, newsletter ou blog.</p></section>
+    <section aria-labelledby="policy-data"><h2 id="policy-data">Dados técnicos de navegação</h2><p>Você pode consultar as páginas sem informar nome, e-mail ou documentos ao site. Não há cadastro de visitantes.</p><p>A infraestrutura de hospedagem da Hostinger pode processar dados técnicos necessários para entregar, proteger e diagnosticar o serviço, como endereço IP, data e horário da requisição, URL solicitada, navegador, dispositivo e informações de conexão. O site não utiliza esses dados para criar perfis comerciais.</p></section>
+    <section aria-labelledby="policy-whatsapp"><h2 id="policy-whatsapp">WhatsApp</h2><p>Ao clicar em um botão de WhatsApp, você é direcionado ao serviço WhatsApp/Meta, pelo número informado no site, com uma sugestão de mensagem que pode revisar antes de enviar. O clique não envia a mensagem automaticamente.</p><p>As informações que você enviar voluntariamente podem ser usadas pela Otimiza para responder ao contato, compreender a solicitação, prestar atendimento, elaborar proposta quando solicitada e dar continuidade à relação comercial. Compartilhe inicialmente apenas o necessário. O tratamento feito pela plataforma segue também suas próprias políticas e termos.</p></section>
+    <section aria-labelledby="policy-instagram"><h2 id="policy-instagram">Instagram</h2><p>Os links para o perfil oficial levam ao Instagram/Meta, ambiente externo sujeito às políticas e aos termos da plataforma. Se você enviar uma mensagem por lá, a Otimiza poderá utilizá-la para responder e dar seguimento ao atendimento solicitado.</p><p>O site usa links simples para o perfil; não incorpora feed ou recursos de rastreamento do Instagram nas páginas.</p></section>
+    <section aria-labelledby="policy-cookies"><h2 id="policy-cookies">Cookies e medição</h2><p>O site não possui analytics ou publicidade ativa e seu código atual não grava cookies para essas finalidades. Cookies estritamente necessários ou mecanismos técnicos da infraestrutura podem existir quando indispensáveis ao funcionamento e à segurança.</p><p>Se ferramentas de analytics ou marketing forem adicionadas, a política será atualizada e os mecanismos de consentimento necessários serão implementados antes de sua ativação. Serviços externos, como WhatsApp e Instagram, têm suas próprias práticas.</p></section>
+    <section aria-labelledby="policy-sharing"><h2 id="policy-sharing">Fornecedores e compartilhamento</h2><p>Fornecedores de hospedagem e plataformas externas podem tratar dados na medida necessária para prestar seus serviços.</p></section>
+    <section aria-labelledby="policy-retention"><h2 id="policy-retention">Conservação dos dados</h2><p>Dados relacionados ao atendimento são mantidos pelo período necessário às finalidades aplicáveis e, quando couber, ao cumprimento de obrigações legais ou regulatórias e à defesa de direitos.</p></section>
+    <section aria-labelledby="policy-rights"><h2 id="policy-rights">Direitos do titular</h2><p>Conforme a LGPD, você pode solicitar confirmação de tratamento, acesso e correção dos seus dados. Nas condições previstas em lei, também pode solicitar anonimização, bloqueio ou eliminação, informações sobre compartilhamento, portabilidade, oposição ao tratamento e revogação do consentimento quando essa for a base utilizada.</p><p>O atendimento considera as condições e exceções legais, inclusive deveres de conservação. Consulte as <a href="https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados-1/direito-dos-titulares">orientações da ANPD sobre seus direitos</a>.</p></section>
+    <section aria-labelledby="policy-contact"><h2 id="policy-contact">Solicitações de privacidade</h2>{business.privacyEmail ? <p>Para exercer seus direitos ou tratar de dados pessoais, escreva para <a href={`mailto:${business.privacyEmail}`}>{business.privacyEmail}</a>.</p> : <p>O canal específico para solicitações de privacidade ainda será definido e divulgado nesta página antes da publicação definitiva do site. O WhatsApp comercial não foi designado para essa finalidade.</p>}</section>
+    <section aria-labelledby="policy-updates"><h2 id="policy-updates">Atualizações</h2><p>Esta política pode ser atualizada em razão de mudanças legais, operacionais ou tecnológicas, inclusive pela adoção de novas ferramentas.</p><p class="policy-date">Última atualização: 23 de setembro de 2026.</p></section>
+  </div>
+</BaseLayout>
+<style>
+  .privacy-hero .internal-lead { margin-top: var(--space-8); max-width: 48ch; }
+  .privacy-content { max-width: 56rem; padding-block: var(--space-16) var(--section-space); }
+  .privacy-content section + section { margin-top: var(--space-12); }
+  .privacy-content h2 { font-size: var(--text-h3); }
+  .privacy-content p { margin-top: var(--space-5); color: var(--text-muted); }
+  .privacy-content a { color: var(--text); text-underline-offset: 5px; overflow-wrap: anywhere; }
+  .policy-date { font-size: var(--text-small); }
+</style>

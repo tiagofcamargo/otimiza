@@ -1,0 +1,74 @@
+{
+  "lighthouse-abertura-de-empresa-desktop.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "lcp": "0.3 s",
+    "cls": "0",
+    "tbt": "0 ms"
+  },
+  "lighthouse-abertura-de-empresa-mobile.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "lcp": "1.4 s",
+    "cls": "0",
+    "tbt": "0 ms"
+  },
+  "lighthouse-contabilidade-empresarial-desktop.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "lcp": "0.3 s",
+    "cls": "0",
+    "tbt": "0 ms"
+  },
+  "lighthouse-contabilidade-empresarial-mobile.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "lcp": "1.4 s",
+    "cls": "0",
+    "tbt": "0 ms"
+  },
+  "lighthouse-troca-de-contador-desktop.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "lcp": "0.3 s",
+    "cls": "0",
+    "tbt": "0 ms"
+  },
+  "lighthouse-troca-de-contador-mobile.report": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66,
+      "agentic-browsing": 100
+    },
+    "lcp": "1.4 s",
+    "cls": "0",
+    "tbt": "0 ms"
+  }
+}

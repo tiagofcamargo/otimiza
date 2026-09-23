@@ -1,0 +1,23 @@
+[
+  {
+    "route": "/sobre",
+    "canonical_matches_configured_origin": true,
+    "og_matches_canonical": true,
+    "indexing_enabled_with_domain": true,
+    "production_build_unchanged": true
+  },
+  {
+    "route": "/servicos",
+    "canonical_matches_configured_origin": true,
+    "og_matches_canonical": true,
+    "indexing_enabled_with_domain": true,
+    "production_build_unchanged": true
+  },
+  {
+    "route": "/servicos/planejamento-tributario",
+    "canonical_matches_configured_origin": true,
+    "og_matches_canonical": true,
+    "indexing_enabled_with_domain": true,
+    "production_build_unchanged": true
+  }
+]

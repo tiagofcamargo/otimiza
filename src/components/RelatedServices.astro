@@ -1,0 +1,21 @@
+---
+import { enabledServices } from '../data/services';
+import Arrow from './Arrow.astro';
+interface Props { slugs: string[]; }
+const { slugs } = Astro.props;
+const related = [...new Set(slugs)].map(slug => enabledServices.find(service => service.slug === slug && service.pagePublished)).filter(service => service !== undefined).slice(0, 3);
+---
+{related.length > 0 && <section class="related-services internal-white" id="servicos-relacionados" aria-labelledby="related-title">
+  <div class="container">
+    <h2 id="related-title">Você também pode precisar de</h2>
+    <ul>{related.map(service => <li><a class="text-link" href={`/servicos/${service.slug}`}><span>{service.title}</span><Arrow diagonal /></a></li>)}</ul>
+  </div>
+</section>}
+<style>
+  .related-services { padding-block: var(--space-12); }
+  h2 { font-size: var(--text-h3); }
+  ul { display: grid; gap: var(--space-4); margin-top: var(--space-6); list-style: none; }
+  li { min-width: 0; }
+  a { display: flex; height: 100%; padding: var(--space-6); background: var(--surface-warm); border-radius: var(--card-radius); font-size: var(--text-body); }
+  @media (min-width: 768px) { ul { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+</style>

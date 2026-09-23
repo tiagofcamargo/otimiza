@@ -1,0 +1,20 @@
+[
+  {
+    "route": "/sobre",
+    "trailingSlashStatus": 200
+  },
+  {
+    "route": "/servicos",
+    "trailingSlashStatus": 200
+  },
+  {
+    "route": "/servicos/planejamento-tributario",
+    "trailingSlashStatus": 200
+  },
+  {
+    "focusVisible": true,
+    "outlineColor": "rgb(17, 17, 17)",
+    "outlineWidth": "2px",
+    "surface": "rgb(239, 66, 52)"
+  }
+]

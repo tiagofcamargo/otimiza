@@ -1,0 +1,42 @@
+---
+import WhatsAppLink from './WhatsAppLink.astro';
+interface Props { message?: string; }
+const { message } = Astro.props;
+---
+<div class="mobile-contact-bar" id="mobile-contact-bar" hidden inert>
+  <div class="container"><WhatsAppLink message={message}>Falar pelo WhatsApp</WhatsAppLink></div>
+</div>
+<script>
+  const bar = document.querySelector<HTMLElement>('#mobile-contact-bar');
+  const heroCta = document.querySelector<HTMLElement>('[data-hero-cta]');
+  const finalCta = document.querySelector<HTMLElement>('#converse');
+  const footer = document.querySelector<HTMLElement>('footer');
+  const menu = document.querySelector<HTMLDetailsElement>('#mobile-menu');
+  if (bar && heroCta && finalCta && footer) {
+    const mobile = window.matchMedia('(max-width: 767px)');
+    const update = () => {
+      // Read positions instead of intersection transitions: an anchor jump can
+      // move the hero CTA directly from below to above a short viewport.
+      const heroPassed = heroCta.getBoundingClientRect().bottom < 0;
+      const endReached = finalCta.getBoundingClientRect().top < window.innerHeight;
+      const show = mobile.matches && heroPassed && !endReached && !menu?.open;
+      // Never hide the currently focused link while a keyboard user is using it.
+      if (!show && bar.contains(document.activeElement) && !menu?.open) return;
+      bar.hidden = !show;
+      bar.inert = !show;
+    };
+    let queued = false;
+    const scheduleUpdate = () => {
+      if (queued) return;
+      queued = true;
+      requestAnimationFrame(() => { queued = false; update(); });
+    };
+    window.addEventListener('scroll', scheduleUpdate, { passive: true });
+    window.addEventListener('resize', scheduleUpdate, { passive: true });
+    window.addEventListener('pageshow', scheduleUpdate);
+    menu?.addEventListener('toggle', update);
+    mobile.addEventListener('change', update);
+    bar.addEventListener('focusout', () => window.setTimeout(update, 0));
+    update();
+  }
+</script>

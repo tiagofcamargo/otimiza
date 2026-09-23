@@ -1,0 +1,242 @@
+[
+  {
+    "width": 360,
+    "overflow": false,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 80,
+      "right": 360
+    },
+    "brand": {
+      "x": 16,
+      "y": 9,
+      "width": 62,
+      "height": 62,
+      "right": 78
+    },
+    "serviceBody": {
+      "fontSize": "18px",
+      "lineHeight": "29.7px"
+    },
+    "serviceLink": {
+      "fontSize": "16px",
+      "lineHeight": "24px"
+    },
+    "faq": {
+      "fontSize": "20px",
+      "lineHeight": "29px"
+    }
+  },
+  {
+    "width": 375,
+    "overflow": false,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 80,
+      "right": 375
+    },
+    "brand": {
+      "x": 16,
+      "y": 9,
+      "width": 62,
+      "height": 62,
+      "right": 78
+    },
+    "serviceBody": {
+      "fontSize": "18px",
+      "lineHeight": "29.7px"
+    },
+    "serviceLink": {
+      "fontSize": "16px",
+      "lineHeight": "24px"
+    },
+    "faq": {
+      "fontSize": "20px",
+      "lineHeight": "29px"
+    }
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 80,
+      "right": 390
+    },
+    "brand": {
+      "x": 16,
+      "y": 9,
+      "width": 62,
+      "height": 62,
+      "right": 78
+    },
+    "serviceBody": {
+      "fontSize": "18px",
+      "lineHeight": "29.7px"
+    },
+    "serviceLink": {
+      "fontSize": "16px",
+      "lineHeight": "24px"
+    },
+    "faq": {
+      "fontSize": "20px",
+      "lineHeight": "29px"
+    }
+  },
+  {
+    "width": 430,
+    "overflow": false,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 430,
+      "height": 80,
+      "right": 430
+    },
+    "brand": {
+      "x": 20,
+      "y": 9,
+      "width": 62,
+      "height": 62,
+      "right": 82
+    },
+    "serviceBody": {
+      "fontSize": "18px",
+      "lineHeight": "29.7px"
+    },
+    "serviceLink": {
+      "fontSize": "16px",
+      "lineHeight": "24px"
+    },
+    "faq": {
+      "fontSize": "20px",
+      "lineHeight": "29px"
+    }
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 768,
+      "height": 88,
+      "right": 768
+    },
+    "brand": {
+      "x": 32,
+      "y": 6.953125,
+      "width": 416,
+      "height": 74.09375,
+      "right": 448
+    },
+    "serviceBody": {
+      "fontSize": "18px",
+      "lineHeight": "29.7px"
+    },
+    "serviceLink": {
+      "fontSize": "16px",
+      "lineHeight": "24px"
+    },
+    "faq": {
+      "fontSize": "20px",
+      "lineHeight": "29px"
+    }
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 88,
+      "right": 1024
+    },
+    "brand": {
+      "x": 32,
+      "y": 6.953125,
+      "width": 416,
+      "height": 74.09375,
+      "right": 448
+    },
+    "serviceBody": {
+      "fontSize": "18px",
+      "lineHeight": "29.7px"
+    },
+    "serviceLink": {
+      "fontSize": "16px",
+      "lineHeight": "24px"
+    },
+    "faq": {
+      "fontSize": "22px",
+      "lineHeight": "31.9px"
+    }
+  },
+  {
+    "width": 1200,
+    "overflow": false,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1200,
+      "height": 88,
+      "right": 1200
+    },
+    "brand": {
+      "x": 40,
+      "y": 6.953125,
+      "width": 416,
+      "height": 74.09375,
+      "right": 456
+    },
+    "serviceBody": {
+      "fontSize": "18px",
+      "lineHeight": "29.7px"
+    },
+    "serviceLink": {
+      "fontSize": "16px",
+      "lineHeight": "24px"
+    },
+    "faq": {
+      "fontSize": "22px",
+      "lineHeight": "31.9px"
+    }
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 88,
+      "right": 1440
+    },
+    "brand": {
+      "x": 40,
+      "y": 6.953125,
+      "width": 416,
+      "height": 74.09375,
+      "right": 456
+    },
+    "serviceBody": {
+      "fontSize": "18px",
+      "lineHeight": "29.7px"
+    },
+    "serviceLink": {
+      "fontSize": "16px",
+      "lineHeight": "24px"
+    },
+    "faq": {
+      "fontSize": "22px",
+      "lineHeight": "31.9px"
+    }
+  }
+]

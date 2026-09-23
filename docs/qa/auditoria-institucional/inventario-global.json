@@ -1,0 +1,3704 @@
+[
+  {
+    "route": "/",
+    "title": "Otimiza Assessoria Contábil | Conhecimento para decidir",
+    "description": "Contabilidade empresarial, orientação fiscal e planejamento tributário. Conhecimento técnico e proximidade para decisões conscientes. Atendimento online.",
+    "headings": [
+      "Contabilidade para decisões que exigem conhecimento de verdade.",
+      "Conhecimento que aproxima.Confiança que se constrói.",
+      "Segurança",
+      "Qualidade",
+      "Agilidade",
+      "Dedicação",
+      "Há decisões que não admitem achismo.",
+      "Regime tributário",
+      "Estrutura societária",
+      "Conformidade fiscal",
+      "Folha e relações de trabalho",
+      "O apoio contábil que cada etapa exige.",
+      "Contabilidade empresarial",
+      "Fiscal e tributário",
+      "Planejamento tributário",
+      "Departamento pessoal",
+      "Abertura de empresa",
+      "Troca de contador",
+      "Conhecimento para interpretar.Proximidade para orientar.",
+      "Entender",
+      "Analisar",
+      "Orientar",
+      "A decisão tributária começa antes da apuração.",
+      "Seu contador deveria ajudar a esclarecer decisões.",
+      "Levantamento",
+      "Alinhamento da transição",
+      "Conferência das informações",
+      "Clareza desde a primeira conversa.",
+      "Tem uma decisão contábil ou tributária importante pela frente?"
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conhecer nossos serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "servicos",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre contabilidade",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Fiscal e tributário",
+        "href": "/servicos/fiscal-e-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario",
+        "position": "servicos",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre a rotina fiscal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "servicos",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre planejamento",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Departamento pessoal",
+        "href": "/servicos/departamento-pessoal",
+        "absolute": "http://127.0.0.1:4321/servicos/departamento-pessoal",
+        "position": "servicos",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre departamento pessoal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Abertura de empresa",
+        "href": "/servicos/abertura-de-empresa",
+        "absolute": "http://127.0.0.1:4321/servicos/abertura-de-empresa",
+        "position": "servicos",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre abertura",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Troca de contador",
+        "href": "/servicos/troca-de-contador",
+        "absolute": "http://127.0.0.1:4321/servicos/troca-de-contador",
+        "position": "servicos",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre a transição",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre planejamento tributário",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio.",
+        "position": "planejamento",
+        "cta": true
+      },
+      {
+        "text": "Quero conversar sobre a troca de contador",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "mobile",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre contabilidade",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre a rotina fiscal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre planejamento",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre departamento pessoal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre abertura",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre a transição",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "servicos",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre planejamento tributário",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio.",
+        "position": "planejamento",
+        "cta": true
+      },
+      {
+        "text": "Quero conversar sobre a troca de contador",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "mobile",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/sobre",
+    "title": "Sobre a Otimiza | Técnica e clareza para decidir",
+    "description": "Conheça a forma de pensar da Otimiza: responsabilidade técnica, compreensão do negócio e orientação clara, com atendimento contábil online.",
+    "headings": [
+      "\n    Contabilidade exige técnica.Orientação exige contexto.",
+      "Confiança se constrói na forma de trabalhar.",
+      "Orientar com responsabilidade.",
+      "Cuidar do que sustenta a análise.",
+      "Dar clareza ao próximo passo.",
+      "Conhecer a realidade de quem decide.",
+      "Informação correta.Uma leitura mais completa.",
+      "Entender o impacto faz parte da entrega.",
+      "Uma nova contratação.",
+      "Ouvir com atenção.Explicar com clareza.",
+      "Digital na operação.Próximo na conversa.",
+      "Uma boa orientação começa por entender sua empresa."
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "AboutPage",
+      "BreadcrumbList"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/sobre#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Falar com a Otimiza",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conhecer nossa forma de pensar",
+        "href": "#como-pensamos",
+        "absolute": "http://127.0.0.1:4321/sobre#como-pensamos",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Conhecer as frentes de atuação",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "conhecimento",
+        "cta": false
+      },
+      {
+        "text": "Falar com a Otimiza",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com a Otimiza",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Falar com a Otimiza",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/servicos",
+    "title": "Serviços contábeis | Encontre sua frente de apoio — Otimiza",
+    "description": "Explore os serviços da Otimiza por necessidade: contabilidade, fiscal, planejamento tributário, departamento pessoal, abertura e troca de contador.",
+    "headings": [
+      "\n    Cada decisão empresarial pede um tipo diferente de análise.",
+      "O que você precisa resolver agora?",
+      "Apoio para a rotina.Análise para as escolhas.",
+      "Contabilidade empresarial",
+      "Fiscal e tributário",
+      "Planejamento tributário",
+      "Departamento pessoal",
+      "Abertura de empresa",
+      "Troca de contador",
+      "A decisão atravessa mais de uma área.",
+      "Revisar o regime tributário.",
+      "Não sabe exatamente qual frente se aplica ao seu caso?"
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "CollectionPage",
+      "BreadcrumbList"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/servicos#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Encontrar minha necessidade",
+        "href": "#necessidades",
+        "absolute": "http://127.0.0.1:4321/servicos#necessidades",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "01Quero organizar a rotina contábilContabilidade empresarial",
+        "href": "#contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos#contabilidade-empresarial",
+        "position": "necessidades",
+        "cta": false
+      },
+      {
+        "text": "02Tenho dúvidas fiscais ou tributáriasFiscal e tributário",
+        "href": "#fiscal-e-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos#fiscal-e-tributario",
+        "position": "necessidades",
+        "cta": false
+      },
+      {
+        "text": "03Quero analisar meu regime tributárioPlanejamento tributário",
+        "href": "#planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos#planejamento-tributario",
+        "position": "necessidades",
+        "cta": false
+      },
+      {
+        "text": "04Preciso estruturar admissões, folha e obrigaçõesDepartamento pessoal",
+        "href": "#departamento-pessoal",
+        "absolute": "http://127.0.0.1:4321/servicos#departamento-pessoal",
+        "position": "necessidades",
+        "cta": false
+      },
+      {
+        "text": "05Quero abrir uma empresaAbertura de empresa",
+        "href": "#abertura-de-empresa",
+        "absolute": "http://127.0.0.1:4321/servicos#abertura-de-empresa",
+        "position": "necessidades",
+        "cta": false
+      },
+      {
+        "text": "06Quero mudar de contadorTroca de contador",
+        "href": "#troca-de-contador",
+        "absolute": "http://127.0.0.1:4321/servicos#troca-de-contador",
+        "position": "necessidades",
+        "cta": false
+      },
+      {
+        "text": "Entender a contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "frentes",
+        "cta": false
+      },
+      {
+        "text": "Entender a área fiscal e tributária",
+        "href": "/servicos/fiscal-e-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario",
+        "position": "frentes",
+        "cta": false
+      },
+      {
+        "text": "Entender o planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "frentes",
+        "cta": false
+      },
+      {
+        "text": "Entender o departamento pessoal",
+        "href": "/servicos/departamento-pessoal",
+        "absolute": "http://127.0.0.1:4321/servicos/departamento-pessoal",
+        "position": "frentes",
+        "cta": false
+      },
+      {
+        "text": "Entender a abertura de empresa",
+        "href": "/servicos/abertura-de-empresa",
+        "absolute": "http://127.0.0.1:4321/servicos/abertura-de-empresa",
+        "position": "frentes",
+        "cta": false
+      },
+      {
+        "text": "Entender a troca de contador",
+        "href": "/servicos/troca-de-contador",
+        "absolute": "http://127.0.0.1:4321/servicos/troca-de-contador",
+        "position": "frentes",
+        "cta": false
+      },
+      {
+        "text": "Conhecer a forma de pensar da Otimiza",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "areas-conectadas",
+        "cta": false
+      },
+      {
+        "text": "Entender o planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "areas-conectadas",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/servicos/contabilidade-empresarial",
+    "title": "Contabilidade empresarial: patrimônio e resultado | Otimiza",
+    "description": "Entenda escrituração, conciliações, balanço e DRE. A Otimiza orienta a leitura do patrimônio, do resultado e das informações contábeis da empresa.",
+    "headings": [
+      "\n    Os números precisam representar o que realmente acontece na empresa.",
+      "Registrar é o começo.Compreender é o que dá sentido.",
+      "Resultado contábilnão é o mesmo que caixa.",
+      "A operação gerou lucro ou prejuízo?",
+      "Quando o dinheiro entra e sai?",
+      "Dos documentos às demonstrações.",
+      "Registrar os fatos",
+      "Conferir os saldos",
+      "Fechar e demonstrar",
+      "Trabalho e participação nos lucros são assuntos diferentes.",
+      "A remuneração pelo trabalho.",
+      "A destinação de resultados.",
+      "O que mudou no resultado?E na estrutura da empresa?",
+      "Entender os números começa pelas perguntas certas.",
+      "Você também pode precisar de",
+      "Seus registros ajudam a entender a empresa?"
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre contabilidade empresarial",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Entender o papel da contabilidade",
+        "href": "#informacao-contabil",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial#informacao-contabil",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "rotina fiscal e tributária",
+        "href": "/servicos/fiscal-e-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario",
+        "position": "informacao-contabil",
+        "cta": false
+      },
+      {
+        "text": "planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "informacao-para-decidir",
+        "cta": false
+      },
+      {
+        "text": "Fiscal e tributário",
+        "href": "/servicos/fiscal-e-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre contabilidade empresarial",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre contabilidade empresarial",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre contabilidade empresarial",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/servicos/fiscal-e-tributario",
+    "title": "Fiscal e tributário: documentos e apuração | Otimiza",
+    "description": "Conheça a relação entre operações, notas fiscais, tributos e obrigações acessórias. Converse com a Otimiza sobre apurações e pendências fiscais.",
+    "headings": [
+      "\n    Cada operação pode produzir uma consequência fiscal diferente.",
+      "A rotina fiscal começa antes da apuração.",
+      "Uma informação percorre várias etapas.",
+      "Operação e documento",
+      "Documento e escrituração",
+      "Escrituração e apuração",
+      "Apuração e informação",
+      "A sigla não explicatoda a incidência.",
+      "ICMS",
+      "ISS",
+      "PIS e Cofins",
+      "IRPJ e CSLL",
+      "A forma de apurar também organiza a rotina.",
+      "Antes de regularizar,é preciso diagnosticar.",
+      "Identificar a origem",
+      "Confrontar as informações",
+      "Avaliar o encaminhamento",
+      "Dúvidas que fazem parte da rotina fiscal.",
+      "Você também pode precisar de",
+      "Há uma operação ou pendência fiscal que precisa de análise?"
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre a área fiscal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Entender a rotina fiscal",
+        "href": "#origem-da-apuracao",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario#origem-da-apuracao",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "regime-e-obrigacoes",
+        "cta": false
+      },
+      {
+        "text": "contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "regime-e-obrigacoes",
+        "cta": false
+      },
+      {
+        "text": "Planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre a área fiscal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre a área fiscal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre a área fiscal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/servicos/planejamento-tributario",
+    "title": "Planejamento tributário empresarial | Otimiza",
+    "description": "Entenda como atividade, margem, folha e operação entram na análise do regime tributário. Compare cenários com critério e orientação da Otimiza.",
+    "headings": [
+      "\n    O melhor regime tributário não é simplesmente o que tem a menor alíquota.",
+      "Planejamento tributário começa pela realidade da empresa.",
+      "Planejamento tributário não é sonegação.",
+      "Informação verdadeira.Alternativas legais.",
+      "Omissão e adulteração não fazem parte.",
+      "As partes precisam fazer sentido em conjunto.",
+      "O que a empresa faz",
+      "Como o resultado se forma",
+      "Como o negócio se organiza",
+      "Quais regras se aplicam",
+      "Três sistemáticas.Nenhuma resposta universal.",
+      "Simples Nacional",
+      "Lucro Presumido",
+      "Lucro Real",
+      "Dos dados à decisão.",
+      "Entender a operação",
+      "Levantar dados",
+      "Construir cenários",
+      "Comparar consequências",
+      "Orientar a decisão",
+      "A empresa muda.A análise precisa acompanhar.",
+      "O resultado mudou",
+      "A estrutura mudou",
+      "A operação mudou",
+      "As regras mudaram",
+      "Antecipar efeitos ajuda a decidir melhor.",
+      "Mesmo faturamento.Realidades diferentes.",
+      "Uma operação concentrada em pessoas.",
+      "Uma operação com outra composição de custos.",
+      "Dúvidas antes de escolher um caminho.",
+      "Antes de escolher um regime, vale entender todo o cenário."
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre planejamento tributário",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Entender como funciona",
+        "href": "#realidade",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario#realidade",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Conhecer todos os serviços da Otimiza",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "Falar sobre planejamento tributário",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre planejamento tributário",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Falar sobre planejamento tributário",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/servicos/departamento-pessoal",
+    "title": "Departamento pessoal e folha de pagamento | Otimiza",
+    "description": "Organize admissões, folha, férias, afastamentos e desligamentos com informações consistentes e atenção às obrigações trabalhistas e previdenciárias.",
+    "headings": [
+      "\n    Pessoas, prazos e obrigações precisam caminhar juntos.",
+      "Cada momento pede uma informação diferente.",
+      "Admissão",
+      "Folha",
+      "Férias",
+      "Afastamentos",
+      "13º salário",
+      "Desligamento",
+      "Uma rotina organizada depende de comunicação.",
+      "Os registros precisam conversar entre si.",
+      "eSocial",
+      "FGTS",
+      "INSS",
+      "Demais obrigações",
+      "Pró-labore também exige uma leitura própria.",
+      "Dúvidas sobre a rotina de pessoal.",
+      "Você também pode precisar de",
+      "Organizar a rotina começa por informações bem alinhadas."
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/servicos/departamento-pessoal#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre departamento pessoal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Entender a rotina",
+        "href": "#ciclo-do-vinculo",
+        "absolute": "http://127.0.0.1:4321/servicos/departamento-pessoal#ciclo-do-vinculo",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "abertura de empresa",
+        "href": "/servicos/abertura-de-empresa",
+        "absolute": "http://127.0.0.1:4321/servicos/abertura-de-empresa",
+        "position": "informacoes",
+        "cta": false
+      },
+      {
+        "text": "contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "socios",
+        "cta": false
+      },
+      {
+        "text": "Contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Abertura de empresa",
+        "href": "/servicos/abertura-de-empresa",
+        "absolute": "http://127.0.0.1:4321/servicos/abertura-de-empresa",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre departamento pessoal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre departamento pessoal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre departamento pessoal",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/servicos/abertura-de-empresa",
+    "title": "Abertura de empresa e CNPJ | Orientação contábil — Otimiza",
+    "description": "Entenda o que definir antes de abrir uma empresa: atividade, CNAE, sociedade, endereço, regime tributário, registros e organização da rotina após o CNPJ.",
+    "headings": [
+      "\n    Abrir um CNPJ é uma etapa.Estruturar a empresa corretamente vem antes.",
+      "Primeiro, entender o negócio que vai funcionar.",
+      "Escolhas conectadas desde o início.",
+      "O que será feito",
+      "Quem participa e como",
+      "Onde e sob quais regras",
+      "O nome parecido não basta para definir a atividade.",
+      "Participação e responsabilidades precisam estar claras.",
+      "O regime deve fazer sentido para a operação prevista.",
+      "Formalizar e preparar a operação.",
+      "Registro empresarial",
+      "CNPJ",
+      "Inscrições",
+      "Licenças e autorizações",
+      "E a emissão de nota?",
+      "O registro dá lugar à rotina da empresa.",
+      "Registros que acompanham o negócio.",
+      "Informações sobre quem trabalha.",
+      "Perguntas antes de abrir a empresa.",
+      "Você também pode precisar de",
+      "Vamos analisar as escolhas que vêm antes do registro?"
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/servicos/abertura-de-empresa#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre abertura de empresa",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conhecer as decisões iniciais",
+        "href": "#antes-do-cnpj",
+        "absolute": "http://127.0.0.1:4321/servicos/abertura-de-empresa#antes-do-cnpj",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "tributacao",
+        "cta": false
+      },
+      {
+        "text": "orientação fiscal e tributária",
+        "href": "/servicos/fiscal-e-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario",
+        "position": "registros",
+        "cta": false
+      },
+      {
+        "text": "contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "depois-da-abertura",
+        "cta": false
+      },
+      {
+        "text": "departamento pessoal",
+        "href": "/servicos/departamento-pessoal",
+        "absolute": "http://127.0.0.1:4321/servicos/departamento-pessoal",
+        "position": "depois-da-abertura",
+        "cta": false
+      },
+      {
+        "text": "Planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Departamento pessoal",
+        "href": "/servicos/departamento-pessoal",
+        "absolute": "http://127.0.0.1:4321/servicos/departamento-pessoal",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Conversar sobre abertura de empresa",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre abertura de empresa",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conversar sobre abertura de empresa",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/servicos/troca-de-contador",
+    "title": "Troca de contador | Transição organizada — Otimiza",
+    "description": "Entenda como organizar a troca de contador: documentos, acessos, saldos, obrigações em andamento e responsabilidades para dar continuidade à rotina.",
+    "headings": [
+      "\n    Mudar de contador não precisa significar perder o controle das informações.",
+      "Sim. A mudança precisa ser alinhada.",
+      "O atendimento precisa acompanhar as necessidades do negócio.",
+      "Uma passagem de informações com começo claro.",
+      "Documentos e saldos",
+      "Acessos e procurações",
+      "Obrigações e folha",
+      "Pendências e situação fiscal",
+      "Da primeira leitura à continuidade.",
+      "Diagnóstico inicial",
+      "Levantamento de informações",
+      "Alinhamento da transição",
+      "Conferência",
+      "Continuidade",
+      "Identificar antes de encaminhar.",
+      "Comunicação profissional preserva a continuidade.",
+      "Dúvidas sobre a mudança de contador.",
+      "Você também pode precisar de",
+      "Vamos entender o que sua transição precisa organizar?"
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/servicos/troca-de-contador#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Quero conversar sobre a troca de contador",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Entender a transição",
+        "href": "#posso-trocar",
+        "absolute": "http://127.0.0.1:4321/servicos/troca-de-contador#posso-trocar",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "fiscal e tributária",
+        "href": "/servicos/fiscal-e-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario",
+        "position": "pendencias",
+        "cta": false
+      },
+      {
+        "text": "contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "pendencias",
+        "cta": false
+      },
+      {
+        "text": "Contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Fiscal e tributário",
+        "href": "/servicos/fiscal-e-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario",
+        "position": "servicos-relacionados",
+        "cta": false
+      },
+      {
+        "text": "Quero conversar sobre a troca de contador",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Quero conversar sobre a troca de contador",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Quero conversar sobre a troca de contador",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/perguntas-frequentes",
+    "title": "Perguntas frequentes sobre serviços contábeis | Otimiza",
+    "description": "Esclareça dúvidas sobre contabilidade, tributos, departamento pessoal, abertura de empresa, troca de contador e atendimento da Otimiza.",
+    "headings": [
+      "\n    Informação clara antes da primeira conversa.",
+      "Por onde você quer começar?",
+      "Sobre a Otimiza",
+      "Contabilidade",
+      "Tributário e fiscal",
+      "Departamento pessoal",
+      "Abertura de empresa",
+      "Troca de contador",
+      "Sua dúvida precisa de uma conversa mais detalhada?"
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Encontrar um assunto",
+        "href": "#indice-faq",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes#indice-faq",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "01Sobre a Otimiza↓",
+        "href": "#faq-otimiza",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes#faq-otimiza",
+        "position": "indice-faq",
+        "cta": false
+      },
+      {
+        "text": "02Contabilidade↓",
+        "href": "#faq-contabilidade",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes#faq-contabilidade",
+        "position": "indice-faq",
+        "cta": false
+      },
+      {
+        "text": "03Tributário e fiscal↓",
+        "href": "#faq-tributario-fiscal",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes#faq-tributario-fiscal",
+        "position": "indice-faq",
+        "cta": false
+      },
+      {
+        "text": "04Departamento pessoal↓",
+        "href": "#faq-departamento-pessoal",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes#faq-departamento-pessoal",
+        "position": "indice-faq",
+        "cta": false
+      },
+      {
+        "text": "05Abertura de empresa↓",
+        "href": "#faq-abertura-empresa",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes#faq-abertura-empresa",
+        "position": "indice-faq",
+        "cta": false
+      },
+      {
+        "text": "06Troca de contador↓",
+        "href": "#faq-troca-contador",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes#faq-troca-contador",
+        "position": "indice-faq",
+        "cta": false
+      },
+      {
+        "text": "Conhecer a Otimiza",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "faq-otimiza",
+        "cta": false
+      },
+      {
+        "text": "Ver canais de contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "faq-otimiza",
+        "cta": false
+      },
+      {
+        "text": "Entender a contabilidade empresarial",
+        "href": "/servicos/contabilidade-empresarial",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial",
+        "position": "faq-contabilidade",
+        "cta": false
+      },
+      {
+        "text": "Aprofundar a diferença entre lucro e caixa",
+        "href": "/servicos/contabilidade-empresarial#lucro-e-caixa",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial#lucro-e-caixa",
+        "position": "faq-contabilidade",
+        "cta": false
+      },
+      {
+        "text": "Entender pró-labore e distribuição",
+        "href": "/servicos/contabilidade-empresarial#socios-e-resultados",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial#socios-e-resultados",
+        "position": "faq-contabilidade",
+        "cta": false
+      },
+      {
+        "text": "Conhecer o planejamento tributário",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "faq-tributario-fiscal",
+        "cta": false
+      },
+      {
+        "text": "Entender a comparação entre regimes",
+        "href": "/servicos/planejamento-tributario#regimes",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario#regimes",
+        "position": "faq-tributario-fiscal",
+        "cta": false
+      },
+      {
+        "text": "Entender a rotina fiscal e tributária",
+        "href": "/servicos/fiscal-e-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario",
+        "position": "faq-tributario-fiscal",
+        "cta": false
+      },
+      {
+        "text": "Conhecer o departamento pessoal",
+        "href": "/servicos/departamento-pessoal",
+        "absolute": "http://127.0.0.1:4321/servicos/departamento-pessoal",
+        "position": "faq-departamento-pessoal",
+        "cta": false
+      },
+      {
+        "text": "Entender a remuneração dos sócios",
+        "href": "/servicos/contabilidade-empresarial#socios-e-resultados",
+        "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial#socios-e-resultados",
+        "position": "faq-departamento-pessoal",
+        "cta": false
+      },
+      {
+        "text": "Entender a abertura de empresa",
+        "href": "/servicos/abertura-de-empresa",
+        "absolute": "http://127.0.0.1:4321/servicos/abertura-de-empresa",
+        "position": "faq-abertura-empresa",
+        "cta": false
+      },
+      {
+        "text": "Conhecer os critérios da análise tributária",
+        "href": "/servicos/planejamento-tributario",
+        "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario",
+        "position": "faq-abertura-empresa",
+        "cta": false
+      },
+      {
+        "text": "Entender a troca de contador",
+        "href": "/servicos/troca-de-contador",
+        "absolute": "http://127.0.0.1:4321/servicos/troca-de-contador",
+        "position": "faq-troca-contador",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "mobile",
+        "cta": true
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "converse",
+        "cta": true
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "mobile",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/contato",
+    "title": "Contato | Converse com a Otimiza",
+    "description": "Fale com a Otimiza sobre os serviços contábeis de que sua empresa precisa. Atendimento online e acesso aos canais oficiais de contato.",
+    "headings": [
+      "\n    Vamos entender o que sua empresa precisa.",
+      "Escolha por onde começar.",
+      "WhatsApp",
+      "@otimiza_assessoria",
+      "Atendimento digital, com proximidade em cada conversa."
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "ContactPage",
+      "BreadcrumbList"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/contato#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conhecer os canais",
+        "href": "#canais",
+        "absolute": "http://127.0.0.1:4321/contato#canais",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "Conversar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "canais",
+        "cta": true
+      },
+      {
+        "text": "Acompanhar no Instagram  (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "canais",
+        "cta": false
+      },
+      {
+        "text": "serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "atendimento",
+        "cta": false
+      },
+      {
+        "text": "perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "atendimento",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "atendimento",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "inicio",
+        "cta": true
+      },
+      {
+        "text": "Conversar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "canais",
+        "cta": true
+      }
+    ]
+  },
+  {
+    "route": "/politica-de-privacidade",
+    "title": "Política de Privacidade | Otimiza",
+    "description": "Saiba como o site da Otimiza trata a navegação, o uso de canais externos e questões de privacidade, incluindo informações sobre cookies e seus direitos.",
+    "headings": [
+      "Privacidade na sua navegação.",
+      "Sobre esta política",
+      "Dados técnicos de navegação",
+      "WhatsApp",
+      "Instagram",
+      "Cookies e medição",
+      "Fornecedores e compartilhamento",
+      "Conservação dos dados",
+      "Direitos do titular",
+      "Solicitações de privacidade",
+      "Atualizações"
+    ],
+    "schemaTypes": [
+      [
+        "Organization",
+        "AccountingService"
+      ],
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "links": [
+      {
+        "text": "Pular para o conteúdo",
+        "href": "#conteudo",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade#conteudo",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "header",
+        "cta": false
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Início",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "inicio",
+        "cta": false
+      },
+      {
+        "text": "orientações da ANPD sobre seus direitos",
+        "href": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados-1/direito-dos-titulares",
+        "absolute": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados-1/direito-dos-titulares",
+        "position": "mobile",
+        "cta": false
+      },
+      {
+        "text": "",
+        "href": "/",
+        "absolute": "http://127.0.0.1:4321/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Falar pelo WhatsApp",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Instagram oficial@otimiza_assessoria (abre em nova aba)",
+        "href": "https://www.instagram.com/otimiza_assessoria/",
+        "absolute": "https://www.instagram.com/otimiza_assessoria/",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Sobre",
+        "href": "/sobre",
+        "absolute": "http://127.0.0.1:4321/sobre",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Serviços",
+        "href": "/servicos",
+        "absolute": "http://127.0.0.1:4321/servicos",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "/perguntas-frequentes",
+        "absolute": "http://127.0.0.1:4321/perguntas-frequentes",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Contato",
+        "href": "/contato",
+        "absolute": "http://127.0.0.1:4321/contato",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Política de Privacidade",
+        "href": "/politica-de-privacidade",
+        "absolute": "http://127.0.0.1:4321/politica-de-privacidade",
+        "position": "footer",
+        "cta": false
+      },
+      {
+        "text": "Voltar ao início ↑",
+        "href": "/#inicio",
+        "absolute": "http://127.0.0.1:4321/#inicio",
+        "position": "footer",
+        "cta": false
+      }
+    ],
+    "ctas": [
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      },
+      {
+        "text": "Falar com um especialista",
+        "href": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "absolute": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista.",
+        "position": "header",
+        "cta": true
+      }
+    ]
+  }
+]

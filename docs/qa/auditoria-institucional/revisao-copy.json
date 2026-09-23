@@ -1,0 +1,520 @@
+{
+  "method": "Texto de main nas doze páginas; contagem de vocabulário não determina problema por si só. Parágrafos literais >=12 palavras; revisão manual complementar.",
+  "pages": {
+    "/": {
+      "word_count": 871,
+      "vocabulary": {
+        "contexto": 7,
+        "decisão": 8,
+        "decisões": 4,
+        "segurança": 1,
+        "análise": 6,
+        "análises": 0,
+        "orientação": 4,
+        "empresa": 14,
+        "empresas": 1
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Falar com um especialista",
+          "href": "/#contato",
+          "absolute": "http://127.0.0.1:4321/#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre contabilidade",
+          "href": "/#contato",
+          "absolute": "http://127.0.0.1:4321/#contato",
+          "position": "servicos",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre a rotina fiscal",
+          "href": "/#contato",
+          "absolute": "http://127.0.0.1:4321/#contato",
+          "position": "servicos",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre planejamento",
+          "href": "/#contato",
+          "absolute": "http://127.0.0.1:4321/#contato",
+          "position": "servicos",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre departamento pessoal",
+          "href": "/#contato",
+          "absolute": "http://127.0.0.1:4321/#contato",
+          "position": "servicos",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre abertura",
+          "href": "/#contato",
+          "absolute": "http://127.0.0.1:4321/#contato",
+          "position": "servicos",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre a transição",
+          "href": "/#contato",
+          "absolute": "http://127.0.0.1:4321/#contato",
+          "position": "servicos",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre planejamento tributário",
+          "href": "/#contato",
+          "absolute": "http://127.0.0.1:4321/#contato",
+          "position": "planejamento",
+          "cta": true
+        },
+        {
+          "text": "Falar com um especialista",
+          "href": "/#contato",
+          "absolute": "http://127.0.0.1:4321/#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/sobre": {
+      "word_count": 454,
+      "vocabulary": {
+        "contexto": 1,
+        "decisão": 4,
+        "decisões": 1,
+        "segurança": 2,
+        "análise": 3,
+        "análises": 0,
+        "orientação": 6,
+        "empresa": 4,
+        "empresas": 0
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Falar com a Otimiza",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/sobre#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Falar com a Otimiza",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/sobre#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/servicos": {
+      "word_count": 541,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 3,
+        "decisões": 0,
+        "segurança": 0,
+        "análise": 5,
+        "análises": 0,
+        "orientação": 1,
+        "empresa": 9,
+        "empresas": 1
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Falar com um especialista",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Falar com um especialista",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/servicos/contabilidade-empresarial": {
+      "word_count": 938,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 1,
+        "decisões": 2,
+        "segurança": 1,
+        "análise": 4,
+        "análises": 0,
+        "orientação": 0,
+        "empresa": 15,
+        "empresas": 0
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Conversar sobre contabilidade empresarial",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre contabilidade empresarial",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/contabilidade-empresarial#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/servicos/fiscal-e-tributario": {
+      "word_count": 1040,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 0,
+        "decisões": 0,
+        "segurança": 0,
+        "análise": 6,
+        "análises": 0,
+        "orientação": 0,
+        "empresa": 7,
+        "empresas": 1
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Conversar sobre a área fiscal",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre a área fiscal",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/fiscal-e-tributario#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/servicos/planejamento-tributario": {
+      "word_count": 1388,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 5,
+        "decisões": 3,
+        "segurança": 0,
+        "análise": 19,
+        "análises": 1,
+        "orientação": 0,
+        "empresa": 16,
+        "empresas": 3
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Conversar sobre planejamento tributário",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Falar sobre planejamento tributário",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/planejamento-tributario#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/servicos/departamento-pessoal": {
+      "word_count": 805,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 0,
+        "decisões": 0,
+        "segurança": 0,
+        "análise": 4,
+        "análises": 0,
+        "orientação": 0,
+        "empresa": 7,
+        "empresas": 0
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Conversar sobre departamento pessoal",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/departamento-pessoal#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre departamento pessoal",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/departamento-pessoal#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/servicos/abertura-de-empresa": {
+      "word_count": 1037,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 1,
+        "decisões": 3,
+        "segurança": 0,
+        "análise": 3,
+        "análises": 0,
+        "orientação": 2,
+        "empresa": 21,
+        "empresas": 0
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Conversar sobre abertura de empresa",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/abertura-de-empresa#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Conversar sobre abertura de empresa",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/abertura-de-empresa#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/servicos/troca-de-contador": {
+      "word_count": 957,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 0,
+        "decisões": 0,
+        "segurança": 0,
+        "análise": 1,
+        "análises": 0,
+        "orientação": 1,
+        "empresa": 7,
+        "empresas": 0
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Quero conversar sobre a troca de contador",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/troca-de-contador#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Quero conversar sobre a troca de contador",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/servicos/troca-de-contador#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/perguntas-frequentes": {
+      "word_count": 1287,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 0,
+        "decisões": 0,
+        "segurança": 0,
+        "análise": 5,
+        "análises": 0,
+        "orientação": 0,
+        "empresa": 16,
+        "empresas": 0
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Falar com um especialista",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/perguntas-frequentes#contato",
+          "position": "inicio",
+          "cta": true
+        },
+        {
+          "text": "Falar com um especialista",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/perguntas-frequentes#contato",
+          "position": "converse",
+          "cta": true
+        }
+      ]
+    },
+    "/contato": {
+      "word_count": 166,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 0,
+        "decisões": 0,
+        "segurança": 0,
+        "análise": 0,
+        "análises": 0,
+        "orientação": 0,
+        "empresa": 2,
+        "empresas": 0
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": [
+        {
+          "text": "Falar com um especialista",
+          "href": "#contato",
+          "absolute": "http://127.0.0.1:4321/contato#contato",
+          "position": "inicio",
+          "cta": true
+        }
+      ]
+    },
+    "/politica-de-privacidade": {
+      "word_count": 476,
+      "vocabulary": {
+        "contexto": 0,
+        "decisão": 0,
+        "decisões": 0,
+        "segurança": 1,
+        "análise": 0,
+        "análises": 0,
+        "orientação": 0,
+        "empresa": 0,
+        "empresas": 0
+      },
+      "patterns": {
+        "não se trata apenas": 0,
+        "mais do que": 0,
+        "em um cenário": 0,
+        "é fundamental": 0,
+        "papel fundamental": 0
+      },
+      "main_ctas": []
+    }
+  },
+  "duplicate_paragraphs": [
+    {
+      "text": "Escrituração, conciliações e demonstrações contábeis para compreender o resultado e a situação patrimonial da sua empresa.",
+      "routes": [
+        "/",
+        "/servicos"
+      ]
+    },
+    {
+      "text": "Análise de documentos fiscais, apuração de tributos e acompanhamento de obrigações, considerando a atividade e o regime da empresa.",
+      "routes": [
+        "/",
+        "/servicos"
+      ]
+    },
+    {
+      "text": "Avaliação da operação, faturamento, margem e folha para comparar regimes e compreender os impactos de cada cenário tributário.",
+      "routes": [
+        "/",
+        "/servicos"
+      ]
+    },
+    {
+      "text": "Admissões, folha, férias e desligamentos tratados com atenção às informações, aos prazos e às obrigações de cada vínculo.",
+      "routes": [
+        "/",
+        "/servicos"
+      ]
+    },
+    {
+      "text": "Orientação sobre atividade, natureza jurídica, estrutura societária e regime tributário antes dos registros e do início da operação.",
+      "routes": [
+        "/",
+        "/servicos"
+      ]
+    },
+    {
+      "text": "Levantamento de documentos, obrigações e saldos para organizar a transição e dar continuidade à rotina contábil da empresa.",
+      "routes": [
+        "/",
+        "/servicos"
+      ]
+    }
+  ]
+}

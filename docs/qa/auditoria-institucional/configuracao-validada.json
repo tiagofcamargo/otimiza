@@ -1,0 +1,563 @@
+{
+  "cases": [
+    {
+      "name": "domain_without_release",
+      "domain": "https://example.test",
+      "release": "false",
+      "indexable": false,
+      "routesChecked": 12,
+      "passed": true
+    },
+    {
+      "name": "domain_with_explicit_release",
+      "domain": "https://example.test",
+      "release": "true",
+      "indexable": true,
+      "routesChecked": 12,
+      "passed": true
+    },
+    {
+      "name": "release_without_domain",
+      "domain": "",
+      "release": "true",
+      "indexable": false,
+      "routesChecked": 12,
+      "passed": true
+    }
+  ],
+  "configuredCTAs": [
+    {
+      "route": "/",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/",
+      "position": "inicio",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/",
+      "position": "servicos",
+      "label": "Conversar sobre contabilidade",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre contabilidade empresarial.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial."
+    },
+    {
+      "route": "/",
+      "position": "servicos",
+      "label": "Conversar sobre a rotina fiscal",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre a área fiscal e tributária.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria."
+    },
+    {
+      "route": "/",
+      "position": "servicos",
+      "label": "Conversar sobre planejamento",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre planejamento tributário.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio."
+    },
+    {
+      "route": "/",
+      "position": "servicos",
+      "label": "Conversar sobre departamento pessoal",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre departamento pessoal.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal."
+    },
+    {
+      "route": "/",
+      "position": "servicos",
+      "label": "Conversar sobre abertura",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre abertura de empresa.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa."
+    },
+    {
+      "route": "/",
+      "position": "servicos",
+      "label": "Conversar sobre a transição",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de entender como funciona a troca de contador.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador."
+    },
+    {
+      "route": "/",
+      "position": "planejamento",
+      "label": "Conversar sobre planejamento tributário",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre planejamento tributário.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20planejamento%20tribut%C3%A1rio."
+    },
+    {
+      "route": "/",
+      "position": "planejamento",
+      "label": "Quero conversar sobre a troca de contador",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de entender como funciona a troca de contador.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador."
+    },
+    {
+      "route": "/",
+      "position": "converse",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/sobre",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/sobre",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/sobre",
+      "position": "inicio",
+      "label": "Falar com a Otimiza",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/sobre",
+      "position": "converse",
+      "label": "Falar com a Otimiza",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/sobre",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/sobre",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos",
+      "position": "inicio",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos",
+      "position": "converse",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/contabilidade-empresarial",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/contabilidade-empresarial",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/contabilidade-empresarial",
+      "position": "inicio",
+      "label": "Conversar sobre contabilidade empresarial",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre contabilidade empresarial.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial."
+    },
+    {
+      "route": "/servicos/contabilidade-empresarial",
+      "position": "converse",
+      "label": "Conversar sobre contabilidade empresarial",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre contabilidade empresarial.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial."
+    },
+    {
+      "route": "/servicos/contabilidade-empresarial",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/contabilidade-empresarial",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre contabilidade empresarial.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20contabilidade%20empresarial."
+    },
+    {
+      "route": "/servicos/fiscal-e-tributario",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/fiscal-e-tributario",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/fiscal-e-tributario",
+      "position": "inicio",
+      "label": "Conversar sobre a área fiscal",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre a área fiscal e tributária.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria."
+    },
+    {
+      "route": "/servicos/fiscal-e-tributario",
+      "position": "converse",
+      "label": "Conversar sobre a área fiscal",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre a área fiscal e tributária.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria."
+    },
+    {
+      "route": "/servicos/fiscal-e-tributario",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/fiscal-e-tributario",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre a área fiscal e tributária.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20a%20%C3%A1rea%20fiscal%20e%20tribut%C3%A1ria."
+    },
+    {
+      "route": "/servicos/planejamento-tributario",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/planejamento-tributario",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/planejamento-tributario",
+      "position": "inicio",
+      "label": "Conversar sobre planejamento tributário",
+      "message": "Olá, vim pela página de planejamento tributário da Otimiza e gostaria de analisar o regime tributário e a operação da minha empresa.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa."
+    },
+    {
+      "route": "/servicos/planejamento-tributario",
+      "position": "converse",
+      "label": "Falar sobre planejamento tributário",
+      "message": "Olá, vim pela página de planejamento tributário da Otimiza e gostaria de analisar o regime tributário e a operação da minha empresa.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa."
+    },
+    {
+      "route": "/servicos/planejamento-tributario",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/planejamento-tributario",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pela página de planejamento tributário da Otimiza e gostaria de analisar o regime tributário e a operação da minha empresa.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20de%20planejamento%20tribut%C3%A1rio%20da%20Otimiza%20e%20gostaria%20de%20analisar%20o%20regime%20tribut%C3%A1rio%20e%20a%20opera%C3%A7%C3%A3o%20da%20minha%20empresa."
+    },
+    {
+      "route": "/servicos/departamento-pessoal",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/departamento-pessoal",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/departamento-pessoal",
+      "position": "inicio",
+      "label": "Conversar sobre departamento pessoal",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre departamento pessoal.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal."
+    },
+    {
+      "route": "/servicos/departamento-pessoal",
+      "position": "converse",
+      "label": "Conversar sobre departamento pessoal",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre departamento pessoal.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal."
+    },
+    {
+      "route": "/servicos/departamento-pessoal",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/departamento-pessoal",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre departamento pessoal.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20departamento%20pessoal."
+    },
+    {
+      "route": "/servicos/abertura-de-empresa",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/abertura-de-empresa",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/abertura-de-empresa",
+      "position": "inicio",
+      "label": "Conversar sobre abertura de empresa",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre abertura de empresa.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa."
+    },
+    {
+      "route": "/servicos/abertura-de-empresa",
+      "position": "converse",
+      "label": "Conversar sobre abertura de empresa",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre abertura de empresa.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa."
+    },
+    {
+      "route": "/servicos/abertura-de-empresa",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/abertura-de-empresa",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar sobre abertura de empresa.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20sobre%20abertura%20de%20empresa."
+    },
+    {
+      "route": "/servicos/troca-de-contador",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/troca-de-contador",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/troca-de-contador",
+      "position": "inicio",
+      "label": "Quero conversar sobre a troca de contador",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de entender como funciona a troca de contador.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador."
+    },
+    {
+      "route": "/servicos/troca-de-contador",
+      "position": "converse",
+      "label": "Quero conversar sobre a troca de contador",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de entender como funciona a troca de contador.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador."
+    },
+    {
+      "route": "/servicos/troca-de-contador",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/servicos/troca-de-contador",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de entender como funciona a troca de contador.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20entender%20como%20funciona%20a%20troca%20de%20contador."
+    },
+    {
+      "route": "/perguntas-frequentes",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/perguntas-frequentes",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/perguntas-frequentes",
+      "position": "inicio",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/perguntas-frequentes",
+      "position": "converse",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/perguntas-frequentes",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/perguntas-frequentes",
+      "position": "mobile",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/contato",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/contato",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/contato",
+      "position": "inicio",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/contato",
+      "position": "canais",
+      "label": "Conversar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/contato",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/politica-de-privacidade",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/politica-de-privacidade",
+      "position": "header",
+      "label": "Falar com um especialista",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    },
+    {
+      "route": "/politica-de-privacidade",
+      "position": "footer",
+      "label": "Falar pelo WhatsApp",
+      "message": "Olá, vim pelo site da Otimiza e gostaria de conversar com um especialista.",
+      "destination": "https://wa.me/5511971774720?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Otimiza%20e%20gostaria%20de%20conversar%20com%20um%20especialista."
+    }
+  ],
+  "reviewBuildUnchanged": true
+}

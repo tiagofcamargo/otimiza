@@ -1,0 +1,30 @@
+---
+import { business } from '../data/business';
+// No ID => no client code. An ID alone never starts measurement.
+// A future consent interface must dispatch the documented event after a choice.
+---
+{business.gaId && <script is:inline data-ga-id={business.gaId}>
+  (() => {
+    const id = document.currentScript.dataset.gaId;
+    let started = false;
+    const gtag = function () { window.dataLayer.push(arguments); };
+    window.addEventListener('otimiza:analytics-consent', event => {
+      if (event.detail?.granted !== true) {
+        window['ga-disable-' + id] = true;
+        if (started) gtag('consent', 'update', { analytics_storage: 'denied' });
+        return;
+      }
+      window['ga-disable-' + id] = false;
+      if (started) { gtag('consent', 'update', { analytics_storage: 'granted' }); return; }
+      started = true;
+      window.dataLayer = window.dataLayer || [];
+      gtag('consent', 'default', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+      gtag('js', new Date());
+      gtag('config', id, { allow_google_signals: false, allow_ad_personalization_signals: false });
+      const tag = document.createElement('script');
+      tag.async = true;
+      tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+      document.head.appendChild(tag);
+    });
+  })();
+</script>}

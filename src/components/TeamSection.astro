@@ -1,0 +1,11 @@
+---
+import { team, type TeamMember } from '../data/team';
+interface Props { members?: TeamMember[]; }
+const { members = team } = Astro.props;
+const confirmed = members.filter(member => member.name.trim() && member.role.trim() && member.bio.trim());
+---
+{confirmed.length > 0 && <section class="section internal-white" aria-labelledby="team-title" data-team>
+  <div class="container"><p class="eyebrow">Pessoas</p><h2 id="team-title">Quem acompanha sua empresa.</h2>
+    <div class="internal-card-grid">{confirmed.map(member => <article class="internal-panel"><h3>{member.name}</h3><p>{member.role}</p><p>{member.bio}</p></article>)}</div>
+  </div>
+</section>}

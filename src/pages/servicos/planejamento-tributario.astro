@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InternalHero from '../../components/InternalHero.astro';
+import CTASection from '../../components/CTASection.astro';
+import FAQ from '../../components/FAQ.astro';
+import Arrow from '../../components/Arrow.astro';
+import { taxCriteria, taxRegimes, taxSteps, taxReviewSignals, taxFAQ, taxMessage } from '../../data/tax-planning';
+import '../../styles/internal-pages.css';
+const breadcrumbs = [{ name: 'Início', href: '/' }, { name: 'Serviços', href: '/servicos' }, { name: 'Planejamento tributário' }];
+---
+<BaseLayout title="Planejamento tributário empresarial | Otimiza" description="Entenda como atividade, margem, folha e operação entram na análise do regime tributário. Compare cenários com critério e orientação da Otimiza." breadcrumbs={breadcrumbs} pageKind="Service" mobileContact contactMessage={taxMessage}>
+  <InternalHero variant="tax" eyebrow="Planejamento tributário" lead="A escolha precisa considerar atividade, faturamento, margem, folha, despesas, créditos, estrutura e operação." breadcrumbs={breadcrumbs} cta="Conversar sobre planejamento tributário" message={taxMessage} secondary={{ label: 'Entender como funciona', href: '#realidade' }}>
+    O melhor regime tributário não é simplesmente o que tem <span>a menor alíquota.</span>
+  </InternalHero>
+
+  <section class="section internal-white" id="realidade" aria-labelledby="reality-title" tabindex="-1">
+    <div class="container internal-split">
+      <div><p class="eyebrow">O ponto de partida</p><h2 id="reality-title">Planejamento tributário começa pela realidade da empresa.</h2></div>
+      <div class="internal-prose"><p>Uma alíquota isolada não conta toda a história. O faturamento ajuda a dimensionar o negócio, mas não mostra, sozinho, como o resultado é formado nem quais condições se aplicam à operação.</p><p>A atividade, a margem, a folha e as despesas podem mudar a leitura de um cenário. A forma de comprar, vender, contratar e organizar a empresa também precisa entrar na análise.</p><p>Comparar alternativas com dados consistentes ajuda a entender a carga tributária e seus efeitos. O objetivo é apoiar uma escolha fundamentada, sem pressupor que toda análise resultará em economia.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="legalidade" aria-labelledby="legality-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Eficiência com responsabilidade</p><h2 id="legality-title">Planejamento tributário não é sonegação.</h2></div><p class="section-description">Buscar eficiência tributária dentro das possibilidades previstas na legislação exige avaliar alternativas reais e seus efeitos. Nenhum resultado pode ser prometido antes da análise do caso.</p></div>
+      <div class="legal-comparison">
+        <article class="internal-panel"><p class="comparison-label">O trabalho de análise</p><h3>Informação verdadeira.<br />Alternativas legais.</h3><p>O planejamento considera as regras vigentes, compara cenários e busca eficiência dentro da legislação. As escolhas precisam ser compatíveis com os fatos e com a operação.</p></article>
+        <article class="internal-panel"><p class="comparison-label">O limite é claro</p><h3>Omissão e adulteração não fazem parte.</h3><p>Ocultar informações, alterar documentos ou descumprir regras não é uma alternativa de planejamento. A análise deve reconhecer os limites de cada possibilidade.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark-section" id="o-que-e-analisado" aria-labelledby="criteria-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">O que é analisado</p><h2 id="criteria-title">As partes precisam fazer sentido <span class="internal-yellow">em conjunto.</span></h2></div><p class="section-description">Os fatores se relacionam. O peso de cada um depende da atividade, das condições aplicáveis e do cenário que está sendo avaliado.</p></div>
+      <div class="tax-analysis-grid">{taxCriteria.map((criterion, index) => <article><p class="analysis-label"><span aria-hidden="true">0{index + 1}</span>{criterion.label}</p><h3>{criterion.title}</h3><p>{criterion.text}</p></article>)}</div>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="regimes" aria-labelledby="regimes-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Regimes tributários</p><h2 id="regimes-title">Três sistemáticas.<br /><span class="muted-heading">Nenhuma resposta universal.</span></h2></div><p class="section-description">Simples Nacional, Lucro Presumido e Lucro Real têm critérios, limitações e formas de cálculo diferentes. A comparação precisa considerar o conjunto dos tributos e das obrigações.</p></div>
+      <div class="regime-grid">{taxRegimes.map((regime, index) => <article class="internal-panel"><span class="service-number" aria-hidden="true">0{index + 1}</span><h3>{regime.name}</h3><p class="regime-idea">{regime.idea}</p><p>{regime.text}</p><div class="regime-question"><p class="comparison-label">Uma pergunta para a análise</p><p>{regime.question}</p></div></article>)}</div>
+      <p class="internal-caption">Esta é uma introdução às diferenças. Condições de enquadramento, cálculo e obrigações precisam ser verificadas para cada empresa.</p>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="como-funciona" aria-labelledby="analysis-title">
+    <div class="container internal-split analysis-layout">
+      <div><p class="eyebrow">Como funciona uma análise</p><h2 id="analysis-title">Dos dados à decisão.</h2><p class="internal-lead">Um modelo conceitual para entender as etapas que podem compor um planejamento. O escopo do trabalho depende da necessidade de cada empresa.</p></div>
+      <ol class="analysis-steps">{taxSteps.map(([title, text], index) => <li><span aria-hidden="true">0{index + 1}</span><div><h3>{title}</h3><p>{text}</p></div></li>)}</ol>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="quando-revisar" aria-labelledby="review-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Quando revisar o regime</p><h2 id="review-title">A empresa muda.<br /><span class="orange-text">A análise precisa acompanhar.</span></h2></div><p class="section-description">Não existe uma periodicidade que responda a todos os casos. Algumas mudanças tornam útil revisitar as premissas e verificar se as escolhas continuam adequadas.</p></div>
+      <div class="review-signals">{taxReviewSignals.map(([title, text]) => <article><h3>{title}</h3><p>{text}</p></article>)}</div>
+    </div>
+  </section>
+
+  <section class="section internal-peach" id="consequencias" aria-labelledby="consequences-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">O valor de comparar</p><h2 id="consequences-title">Antecipar efeitos ajuda a decidir melhor.</h2></div>
+      <div class="internal-prose"><p>A comparação de cenários pode ajudar a evitar escolhas baseadas apenas em alíquota ou em um enquadramento que não combina com a realidade da empresa.</p><p>Também permite discutir impactos de tributos no caixa, necessidades de organização e limites das projeções. Essa leitura contribui para a previsibilidade e reduz a dependência de decisões sem simulação.</p><p>Nenhuma análise elimina todos os riscos. Dados confiáveis e premissas claras ajudam a reconhecer o que se pode concluir e o que ainda precisa ser verificado.</p></div>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="exemplo" aria-labelledby="example-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Exemplo conceitual</p><h2 id="example-title">Mesmo faturamento.<br /><span class="muted-heading">Realidades diferentes.</span></h2></div><p class="section-description">Duas empresas podem ter a mesma receita e precisar de análises tributárias distintas. O que muda está na forma de gerar esse resultado.</p></div>
+      <div class="conceptual-example">
+        <article><p class="comparison-label">Situação A · ilustrativa</p><h3>Uma operação concentrada em pessoas.</h3><p>A folha tem um papel relevante na estrutura. Atividade, margem e despesas precisam ser avaliadas em conjunto com os custos de pessoal.</p></article>
+        <article><p class="comparison-label">Situação B · ilustrativa</p><h3>Uma operação com outra composição de custos.</h3><p>Compras, despesas e organização do negócio têm pesos diferentes. A análise de condições e créditos permitidos pode trazer outras questões à comparação.</p></article>
+      </div>
+      <p class="example-conclusion">A receita é igual no exemplo. As premissas não são.<br /><strong>A conclusão depende dos dados e das regras de cada caso.</strong></p>
+      <p class="internal-caption">Exemplo didático, sem valores, cálculo de economia ou indicação de regime. Não representa clientes ou casos da Otimiza.</p>
+    </div>
+  </section>
+
+  <FAQ title="Dúvidas antes de escolher um caminho." description="Respostas para situar a análise. As condições específicas precisam ser confirmadas conforme a realidade da empresa e as regras aplicáveis." items={taxFAQ} />
+  <section class="internal-return"><div class="container"><a class="text-link" href="/servicos">Conhecer todos os serviços da Otimiza <Arrow diagonal /></a></div></section>
+  <CTASection title="Antes de escolher um regime, vale entender todo o cenário." description="Converse com a Otimiza sobre a realidade da sua empresa e os fatores que precisam entrar nessa análise." label="Falar sobre planejamento tributário" message={taxMessage} />
+</BaseLayout>

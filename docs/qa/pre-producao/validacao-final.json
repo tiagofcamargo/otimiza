@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-22",
+  "build": {
+    "passed": true,
+    "checkedFiles": 58,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0,
+    "htmlPages": 13
+  },
+  "unitTests": {
+    "passed": 13,
+    "failed": 0
+  },
+  "browserTests": {
+    "passed": 121,
+    "failed": 0,
+    "axeChecks": 24,
+    "axeViolations": 0
+  },
+  "configuration": {
+    "scenarios": 3,
+    "pagesPerScenario": 12,
+    "configuredCTAs": 76
+  },
+  "lighthouseRuns": 6,
+  "indexingEnabled": false,
+  "analyticsEnabled": false,
+  "deployed": false,
+  "runtimeAfterFinalFix": true
+}

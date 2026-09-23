@@ -1,0 +1,11 @@
+---
+import type { BreadcrumbItem } from '../utils/seo';
+interface Props { items: BreadcrumbItem[]; }
+const { items } = Astro.props;
+---
+<nav class="breadcrumbs" aria-label="Você está aqui">
+  <ol>{items.map((item, index) => <li>
+    {index > 0 && <span class="breadcrumb-separator" aria-hidden="true">/</span>}
+    {index === items.length - 1 ? <span aria-current="page">{item.name}</span> : <a href={item.href}>{item.name}</a>}
+  </li>)}</ol>
+</nav>

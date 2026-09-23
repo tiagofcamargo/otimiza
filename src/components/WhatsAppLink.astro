@@ -1,0 +1,23 @@
+---
+import Arrow from './Arrow.astro';
+import { buildWhatsAppUrl, generalMessage } from '../utils/whatsapp';
+interface Props {
+  message?: string;
+  variant?: 'button' | 'text';
+  class?: string;
+  id?: string;
+  hero?: boolean;
+}
+const { message = generalMessage, variant = 'button', class: className, id, hero = false } = Astro.props;
+const url = buildWhatsAppUrl(message);
+---
+<a
+  href={url ?? (Astro.url.pathname === '/' ? '/#contato' : '#contato')}
+  id={id}
+  class:list={[variant === 'button' ? 'button' : 'text-link', className]}
+  data-whatsapp={url ? 'ready' : 'pending'}
+  data-hero-cta={hero || undefined}
+  aria-describedby={!url ? 'contact-availability' : undefined}
+>
+  <span><slot /></span><Arrow diagonal={variant === 'text'} />
+</a>

@@ -1,0 +1,59 @@
+:root {
+  --brand-orange: #ef4234;
+  --brand-yellow: #ffb941;
+  --brand-light: #fafafa;
+  --brand-dark: #232326;
+  --surface: #fff;
+  --surface-subtle: #f1f1ee;
+  --text: var(--brand-dark);
+  --text-muted: #606066;
+  --text-on-dark: #d4d4d5;
+  --cta-text: #111;
+  --link: #b92c22;
+  --line: #dededb;
+  --line-dark: #555558;
+  --font-advisory: 'Manrope', Arial, sans-serif;
+  --font-heading: var(--font-advisory);
+  --font-body: var(--font-advisory);
+  --surface-warm: #f2f0eb;
+  --surface-peach: #fce8e3;
+  --surface-peach-subtle: #fcf1ee;
+  --surface-yellow: #fff3d7;
+  --intro-width: 85rem;
+  --intro-radius: 1.25rem;
+  --card-radius: 1.5rem;
+  --text-body: 1.125rem;
+  --text-small: 1rem;
+  --text-h1: clamp(2.5rem, 2.3rem + 1vw, 4.5rem);
+  --text-h2: clamp(2.25rem, 1.5rem + 2.9vw, 3.75rem);
+  --text-h3: clamp(1.625rem, 1.3rem + 1vw, 2rem);
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-28: 7rem;
+  --section-space: var(--space-20);
+  --container-width: 85rem;
+  --gutter: var(--space-4);
+  --radius: .65rem;
+  --touch-target: 2.75rem;
+  --button-height: 3.75rem;
+  --mobile-bar-height: calc(var(--button-height) + var(--space-4) + 1px + env(safe-area-inset-bottom, 0px));
+  --focus: var(--brand-dark);
+  --focus-width: 2px;
+  --layer-header: 20;
+  --layer-bar: 30;
+  --layer-menu: 40;
+  --layer-skip: 60;
+}
+@media (min-width: 430px) { :root { --gutter: var(--space-5); } }
+@media (min-width: 768px) { :root { --gutter: var(--space-8); --section-space: var(--space-24); --text-h1: 3.75rem; } }
+@media (min-width: 1200px) { :root { --gutter: var(--space-10); --section-space: var(--space-28); --text-h1: 4.5rem; } }

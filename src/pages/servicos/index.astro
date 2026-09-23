@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InternalHero from '../../components/InternalHero.astro';
+import CTASection from '../../components/CTASection.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+import Arrow from '../../components/Arrow.astro';
+import { enabledServices, serviceNeeds } from '../../data/services';
+import '../../styles/internal-pages.css';
+const breadcrumbs = [{ name: 'Início', href: '/' }, { name: 'Serviços' }];
+---
+<BaseLayout title="Serviços contábeis | Encontre sua frente de apoio — Otimiza" description="Explore os serviços da Otimiza por necessidade: contabilidade, fiscal, planejamento tributário, departamento pessoal, abertura e troca de contador." breadcrumbs={breadcrumbs} pageKind="CollectionPage" mobileContact>
+  <InternalHero variant="hub" eyebrow="Serviços contábeis" lead="A Otimiza atua em diferentes frentes da rotina contábil, fiscal, tributária e trabalhista para orientar empresas em cada etapa." breadcrumbs={breadcrumbs} cta="Falar com um especialista" secondary={{ label: 'Encontrar minha necessidade', href: '#necessidades' }}>
+    Cada decisão empresarial pede <span>um tipo diferente de análise.</span>
+  </InternalHero>
+
+  <section class="section internal-warm" id="necessidades" aria-labelledby="needs-title" tabindex="-1">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Comece pela sua necessidade</p><h2 id="needs-title">O que você precisa resolver agora?</h2></div><p class="section-description">Escolha a situação que mais se aproxima da sua. Você pode precisar de uma frente específica ou de uma análise que conecte mais de uma área.</p></div>
+      <nav class="needs-grid" aria-label="Serviços por necessidade">{enabledServices.map((service, index) => <a href={`#${service.slug}`}>
+        <span class="need-number" aria-hidden="true">0{index + 1}</span><span class="need-title">{serviceNeeds[service.slug].need}</span><span class="need-destination">{service.title}<Arrow diagonal /></span>
+      </a>)}</nav>
+    </div>
+  </section>
+
+  <section class="section internal-white" id="frentes" aria-labelledby="fronts-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Frentes de atuação</p><h2 id="fronts-title">Apoio para a rotina.<br /><span class="muted-heading">Análise para as escolhas.</span></h2></div><p class="section-description">Entenda o papel de cada serviço e as situações em que ele pode contribuir para a sua empresa.</p></div>
+      <div class="internal-services-grid">{enabledServices.map((service, index) => <ServiceCard service={service} number={index + 1} />)}</div>
+    </div>
+  </section>
+
+  <section class="section internal-warm" id="areas-conectadas" aria-labelledby="connected-title">
+    <div class="container internal-split">
+      <div><p class="eyebrow">As frentes se relacionam</p><h2 id="connected-title">A decisão atravessa mais de uma área.</h2><a class="text-link internal-section-link" href="/sobre">Conhecer a forma de pensar da Otimiza <Arrow diagonal /></a></div>
+      <div class="internal-prose"><p>Uma escolha tributária pode depender da contabilidade, da folha, da operação, da estrutura societária e das obrigações fiscais. Analisar essas informações em conjunto ajuda a compreender os efeitos da decisão.</p><div class="connected-example"><p class="eyebrow">Um exemplo</p><h3>Revisar o regime tributário.</h3><p>O faturamento é uma parte da análise. A margem apresentada pela contabilidade, os custos com pessoal e a forma de operar também precisam entrar na comparação.</p><a class="text-link" href="/servicos/planejamento-tributario">Entender o planejamento tributário <Arrow diagonal /></a></div></div>
+    </div>
+  </section>
+  <CTASection title="Não sabe exatamente qual frente se aplica ao seu caso?" description="Converse com a Otimiza e explique a situação. A primeira etapa é entender a necessidade antes de indicar um caminho." label="Falar com um especialista" />
+</BaseLayout>

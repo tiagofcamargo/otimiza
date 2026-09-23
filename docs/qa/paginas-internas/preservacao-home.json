@@ -1,0 +1,10 @@
+{
+  "src/styles/tokens.css": true,
+  "src/styles/reset.css": true,
+  "src/styles/typography.css": true,
+  "src/styles/global.css": true,
+  "src/styles/home-intro.css": true,
+  "src/styles/home-sections.css": true,
+  "src/components/Footer.astro": true,
+  "original_logos_unchanged": true
+}
